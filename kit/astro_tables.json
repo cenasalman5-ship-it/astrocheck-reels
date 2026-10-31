@@ -1,0 +1,1814 @@
+{
+ "Surya-1": {
+  "grah": "Surya",
+  "ghar": 1,
+  "drishti_on_houses": [
+   7
+  ],
+  "lagna_where_own_sign": [
+   "Singh"
+  ],
+  "lagna_where_exalted": [
+   "Mesh"
+  ],
+  "lagna_where_debilitated": [
+   "Tula"
+  ]
+ },
+ "Surya-2": {
+  "grah": "Surya",
+  "ghar": 2,
+  "drishti_on_houses": [
+   8
+  ],
+  "lagna_where_own_sign": [
+   "Kark"
+  ],
+  "lagna_where_exalted": [
+   "Meen"
+  ],
+  "lagna_where_debilitated": [
+   "Kanya"
+  ]
+ },
+ "Surya-3": {
+  "grah": "Surya",
+  "ghar": 3,
+  "drishti_on_houses": [
+   9
+  ],
+  "lagna_where_own_sign": [
+   "Mithun"
+  ],
+  "lagna_where_exalted": [
+   "Kumbh"
+  ],
+  "lagna_where_debilitated": [
+   "Singh"
+  ]
+ },
+ "Surya-4": {
+  "grah": "Surya",
+  "ghar": 4,
+  "drishti_on_houses": [
+   10
+  ],
+  "lagna_where_own_sign": [
+   "Vrishabh"
+  ],
+  "lagna_where_exalted": [
+   "Makar"
+  ],
+  "lagna_where_debilitated": [
+   "Kark"
+  ]
+ },
+ "Surya-5": {
+  "grah": "Surya",
+  "ghar": 5,
+  "drishti_on_houses": [
+   11
+  ],
+  "lagna_where_own_sign": [
+   "Mesh"
+  ],
+  "lagna_where_exalted": [
+   "Dhanu"
+  ],
+  "lagna_where_debilitated": [
+   "Mithun"
+  ]
+ },
+ "Surya-6": {
+  "grah": "Surya",
+  "ghar": 6,
+  "drishti_on_houses": [
+   12
+  ],
+  "lagna_where_own_sign": [
+   "Meen"
+  ],
+  "lagna_where_exalted": [
+   "Vrishchik"
+  ],
+  "lagna_where_debilitated": [
+   "Vrishabh"
+  ]
+ },
+ "Surya-7": {
+  "grah": "Surya",
+  "ghar": 7,
+  "drishti_on_houses": [
+   1
+  ],
+  "lagna_where_own_sign": [
+   "Kumbh"
+  ],
+  "lagna_where_exalted": [
+   "Tula"
+  ],
+  "lagna_where_debilitated": [
+   "Mesh"
+  ]
+ },
+ "Surya-8": {
+  "grah": "Surya",
+  "ghar": 8,
+  "drishti_on_houses": [
+   2
+  ],
+  "lagna_where_own_sign": [
+   "Makar"
+  ],
+  "lagna_where_exalted": [
+   "Kanya"
+  ],
+  "lagna_where_debilitated": [
+   "Meen"
+  ]
+ },
+ "Surya-9": {
+  "grah": "Surya",
+  "ghar": 9,
+  "drishti_on_houses": [
+   3
+  ],
+  "lagna_where_own_sign": [
+   "Dhanu"
+  ],
+  "lagna_where_exalted": [
+   "Singh"
+  ],
+  "lagna_where_debilitated": [
+   "Kumbh"
+  ]
+ },
+ "Surya-10": {
+  "grah": "Surya",
+  "ghar": 10,
+  "drishti_on_houses": [
+   4
+  ],
+  "lagna_where_own_sign": [
+   "Vrishchik"
+  ],
+  "lagna_where_exalted": [
+   "Kark"
+  ],
+  "lagna_where_debilitated": [
+   "Makar"
+  ]
+ },
+ "Surya-11": {
+  "grah": "Surya",
+  "ghar": 11,
+  "drishti_on_houses": [
+   5
+  ],
+  "lagna_where_own_sign": [
+   "Tula"
+  ],
+  "lagna_where_exalted": [
+   "Mithun"
+  ],
+  "lagna_where_debilitated": [
+   "Dhanu"
+  ]
+ },
+ "Surya-12": {
+  "grah": "Surya",
+  "ghar": 12,
+  "drishti_on_houses": [
+   6
+  ],
+  "lagna_where_own_sign": [
+   "Kanya"
+  ],
+  "lagna_where_exalted": [
+   "Vrishabh"
+  ],
+  "lagna_where_debilitated": [
+   "Vrishchik"
+  ]
+ },
+ "Chandra-1": {
+  "grah": "Chandra",
+  "ghar": 1,
+  "drishti_on_houses": [
+   7
+  ],
+  "lagna_where_own_sign": [
+   "Kark"
+  ],
+  "lagna_where_exalted": [
+   "Vrishabh"
+  ],
+  "lagna_where_debilitated": [
+   "Vrishchik"
+  ]
+ },
+ "Chandra-2": {
+  "grah": "Chandra",
+  "ghar": 2,
+  "drishti_on_houses": [
+   8
+  ],
+  "lagna_where_own_sign": [
+   "Mithun"
+  ],
+  "lagna_where_exalted": [
+   "Mesh"
+  ],
+  "lagna_where_debilitated": [
+   "Tula"
+  ]
+ },
+ "Chandra-3": {
+  "grah": "Chandra",
+  "ghar": 3,
+  "drishti_on_houses": [
+   9
+  ],
+  "lagna_where_own_sign": [
+   "Vrishabh"
+  ],
+  "lagna_where_exalted": [
+   "Meen"
+  ],
+  "lagna_where_debilitated": [
+   "Kanya"
+  ]
+ },
+ "Chandra-4": {
+  "grah": "Chandra",
+  "ghar": 4,
+  "drishti_on_houses": [
+   10
+  ],
+  "lagna_where_own_sign": [
+   "Mesh"
+  ],
+  "lagna_where_exalted": [
+   "Kumbh"
+  ],
+  "lagna_where_debilitated": [
+   "Singh"
+  ]
+ },
+ "Chandra-5": {
+  "grah": "Chandra",
+  "ghar": 5,
+  "drishti_on_houses": [
+   11
+  ],
+  "lagna_where_own_sign": [
+   "Meen"
+  ],
+  "lagna_where_exalted": [
+   "Makar"
+  ],
+  "lagna_where_debilitated": [
+   "Kark"
+  ]
+ },
+ "Chandra-6": {
+  "grah": "Chandra",
+  "ghar": 6,
+  "drishti_on_houses": [
+   12
+  ],
+  "lagna_where_own_sign": [
+   "Kumbh"
+  ],
+  "lagna_where_exalted": [
+   "Dhanu"
+  ],
+  "lagna_where_debilitated": [
+   "Mithun"
+  ]
+ },
+ "Chandra-7": {
+  "grah": "Chandra",
+  "ghar": 7,
+  "drishti_on_houses": [
+   1
+  ],
+  "lagna_where_own_sign": [
+   "Makar"
+  ],
+  "lagna_where_exalted": [
+   "Vrishchik"
+  ],
+  "lagna_where_debilitated": [
+   "Vrishabh"
+  ]
+ },
+ "Chandra-8": {
+  "grah": "Chandra",
+  "ghar": 8,
+  "drishti_on_houses": [
+   2
+  ],
+  "lagna_where_own_sign": [
+   "Dhanu"
+  ],
+  "lagna_where_exalted": [
+   "Tula"
+  ],
+  "lagna_where_debilitated": [
+   "Mesh"
+  ]
+ },
+ "Chandra-9": {
+  "grah": "Chandra",
+  "ghar": 9,
+  "drishti_on_houses": [
+   3
+  ],
+  "lagna_where_own_sign": [
+   "Vrishchik"
+  ],
+  "lagna_where_exalted": [
+   "Kanya"
+  ],
+  "lagna_where_debilitated": [
+   "Meen"
+  ]
+ },
+ "Chandra-10": {
+  "grah": "Chandra",
+  "ghar": 10,
+  "drishti_on_houses": [
+   4
+  ],
+  "lagna_where_own_sign": [
+   "Tula"
+  ],
+  "lagna_where_exalted": [
+   "Singh"
+  ],
+  "lagna_where_debilitated": [
+   "Kumbh"
+  ]
+ },
+ "Chandra-11": {
+  "grah": "Chandra",
+  "ghar": 11,
+  "drishti_on_houses": [
+   5
+  ],
+  "lagna_where_own_sign": [
+   "Kanya"
+  ],
+  "lagna_where_exalted": [
+   "Kark"
+  ],
+  "lagna_where_debilitated": [
+   "Makar"
+  ]
+ },
+ "Chandra-12": {
+  "grah": "Chandra",
+  "ghar": 12,
+  "drishti_on_houses": [
+   6
+  ],
+  "lagna_where_own_sign": [
+   "Singh"
+  ],
+  "lagna_where_exalted": [
+   "Mithun"
+  ],
+  "lagna_where_debilitated": [
+   "Dhanu"
+  ]
+ },
+ "Mangal-1": {
+  "grah": "Mangal",
+  "ghar": 1,
+  "drishti_on_houses": [
+   4,
+   7,
+   8
+  ],
+  "lagna_where_own_sign": [
+   "Mesh",
+   "Vrishchik"
+  ],
+  "lagna_where_exalted": [
+   "Makar"
+  ],
+  "lagna_where_debilitated": [
+   "Kark"
+  ]
+ },
+ "Mangal-2": {
+  "grah": "Mangal",
+  "ghar": 2,
+  "drishti_on_houses": [
+   5,
+   8,
+   9
+  ],
+  "lagna_where_own_sign": [
+   "Tula",
+   "Meen"
+  ],
+  "lagna_where_exalted": [
+   "Dhanu"
+  ],
+  "lagna_where_debilitated": [
+   "Mithun"
+  ]
+ },
+ "Mangal-3": {
+  "grah": "Mangal",
+  "ghar": 3,
+  "drishti_on_houses": [
+   6,
+   9,
+   10
+  ],
+  "lagna_where_own_sign": [
+   "Kanya",
+   "Kumbh"
+  ],
+  "lagna_where_exalted": [
+   "Vrishchik"
+  ],
+  "lagna_where_debilitated": [
+   "Vrishabh"
+  ]
+ },
+ "Mangal-4": {
+  "grah": "Mangal",
+  "ghar": 4,
+  "drishti_on_houses": [
+   7,
+   10,
+   11
+  ],
+  "lagna_where_own_sign": [
+   "Singh",
+   "Makar"
+  ],
+  "lagna_where_exalted": [
+   "Tula"
+  ],
+  "lagna_where_debilitated": [
+   "Mesh"
+  ]
+ },
+ "Mangal-5": {
+  "grah": "Mangal",
+  "ghar": 5,
+  "drishti_on_houses": [
+   8,
+   11,
+   12
+  ],
+  "lagna_where_own_sign": [
+   "Kark",
+   "Dhanu"
+  ],
+  "lagna_where_exalted": [
+   "Kanya"
+  ],
+  "lagna_where_debilitated": [
+   "Meen"
+  ]
+ },
+ "Mangal-6": {
+  "grah": "Mangal",
+  "ghar": 6,
+  "drishti_on_houses": [
+   1,
+   9,
+   12
+  ],
+  "lagna_where_own_sign": [
+   "Mithun",
+   "Vrishchik"
+  ],
+  "lagna_where_exalted": [
+   "Singh"
+  ],
+  "lagna_where_debilitated": [
+   "Kumbh"
+  ]
+ },
+ "Mangal-7": {
+  "grah": "Mangal",
+  "ghar": 7,
+  "drishti_on_houses": [
+   1,
+   2,
+   10
+  ],
+  "lagna_where_own_sign": [
+   "Vrishabh",
+   "Tula"
+  ],
+  "lagna_where_exalted": [
+   "Kark"
+  ],
+  "lagna_where_debilitated": [
+   "Makar"
+  ]
+ },
+ "Mangal-8": {
+  "grah": "Mangal",
+  "ghar": 8,
+  "drishti_on_houses": [
+   2,
+   3,
+   11
+  ],
+  "lagna_where_own_sign": [
+   "Mesh",
+   "Kanya"
+  ],
+  "lagna_where_exalted": [
+   "Mithun"
+  ],
+  "lagna_where_debilitated": [
+   "Dhanu"
+  ]
+ },
+ "Mangal-9": {
+  "grah": "Mangal",
+  "ghar": 9,
+  "drishti_on_houses": [
+   3,
+   4,
+   12
+  ],
+  "lagna_where_own_sign": [
+   "Singh",
+   "Meen"
+  ],
+  "lagna_where_exalted": [
+   "Vrishabh"
+  ],
+  "lagna_where_debilitated": [
+   "Vrishchik"
+  ]
+ },
+ "Mangal-10": {
+  "grah": "Mangal",
+  "ghar": 10,
+  "drishti_on_houses": [
+   1,
+   4,
+   5
+  ],
+  "lagna_where_own_sign": [
+   "Kark",
+   "Kumbh"
+  ],
+  "lagna_where_exalted": [
+   "Mesh"
+  ],
+  "lagna_where_debilitated": [
+   "Tula"
+  ]
+ },
+ "Mangal-11": {
+  "grah": "Mangal",
+  "ghar": 11,
+  "drishti_on_houses": [
+   2,
+   5,
+   6
+  ],
+  "lagna_where_own_sign": [
+   "Mithun",
+   "Makar"
+  ],
+  "lagna_where_exalted": [
+   "Meen"
+  ],
+  "lagna_where_debilitated": [
+   "Kanya"
+  ]
+ },
+ "Mangal-12": {
+  "grah": "Mangal",
+  "ghar": 12,
+  "drishti_on_houses": [
+   3,
+   6,
+   7
+  ],
+  "lagna_where_own_sign": [
+   "Vrishabh",
+   "Dhanu"
+  ],
+  "lagna_where_exalted": [
+   "Kumbh"
+  ],
+  "lagna_where_debilitated": [
+   "Singh"
+  ]
+ },
+ "Budh-1": {
+  "grah": "Budh",
+  "ghar": 1,
+  "drishti_on_houses": [
+   7
+  ],
+  "lagna_where_own_sign": [
+   "Mithun",
+   "Kanya"
+  ],
+  "lagna_where_exalted": [
+   "Kanya"
+  ],
+  "lagna_where_debilitated": [
+   "Meen"
+  ]
+ },
+ "Budh-2": {
+  "grah": "Budh",
+  "ghar": 2,
+  "drishti_on_houses": [
+   8
+  ],
+  "lagna_where_own_sign": [
+   "Vrishabh",
+   "Singh"
+  ],
+  "lagna_where_exalted": [
+   "Singh"
+  ],
+  "lagna_where_debilitated": [
+   "Kumbh"
+  ]
+ },
+ "Budh-3": {
+  "grah": "Budh",
+  "ghar": 3,
+  "drishti_on_houses": [
+   9
+  ],
+  "lagna_where_own_sign": [
+   "Mesh",
+   "Kark"
+  ],
+  "lagna_where_exalted": [
+   "Kark"
+  ],
+  "lagna_where_debilitated": [
+   "Makar"
+  ]
+ },
+ "Budh-4": {
+  "grah": "Budh",
+  "ghar": 4,
+  "drishti_on_houses": [
+   10
+  ],
+  "lagna_where_own_sign": [
+   "Mithun",
+   "Meen"
+  ],
+  "lagna_where_exalted": [
+   "Mithun"
+  ],
+  "lagna_where_debilitated": [
+   "Dhanu"
+  ]
+ },
+ "Budh-5": {
+  "grah": "Budh",
+  "ghar": 5,
+  "drishti_on_houses": [
+   11
+  ],
+  "lagna_where_own_sign": [
+   "Vrishabh",
+   "Kumbh"
+  ],
+  "lagna_where_exalted": [
+   "Vrishabh"
+  ],
+  "lagna_where_debilitated": [
+   "Vrishchik"
+  ]
+ },
+ "Budh-6": {
+  "grah": "Budh",
+  "ghar": 6,
+  "drishti_on_houses": [
+   12
+  ],
+  "lagna_where_own_sign": [
+   "Mesh",
+   "Makar"
+  ],
+  "lagna_where_exalted": [
+   "Mesh"
+  ],
+  "lagna_where_debilitated": [
+   "Tula"
+  ]
+ },
+ "Budh-7": {
+  "grah": "Budh",
+  "ghar": 7,
+  "drishti_on_houses": [
+   1
+  ],
+  "lagna_where_own_sign": [
+   "Dhanu",
+   "Meen"
+  ],
+  "lagna_where_exalted": [
+   "Meen"
+  ],
+  "lagna_where_debilitated": [
+   "Kanya"
+  ]
+ },
+ "Budh-8": {
+  "grah": "Budh",
+  "ghar": 8,
+  "drishti_on_houses": [
+   2
+  ],
+  "lagna_where_own_sign": [
+   "Vrishchik",
+   "Kumbh"
+  ],
+  "lagna_where_exalted": [
+   "Kumbh"
+  ],
+  "lagna_where_debilitated": [
+   "Singh"
+  ]
+ },
+ "Budh-9": {
+  "grah": "Budh",
+  "ghar": 9,
+  "drishti_on_houses": [
+   3
+  ],
+  "lagna_where_own_sign": [
+   "Tula",
+   "Makar"
+  ],
+  "lagna_where_exalted": [
+   "Makar"
+  ],
+  "lagna_where_debilitated": [
+   "Kark"
+  ]
+ },
+ "Budh-10": {
+  "grah": "Budh",
+  "ghar": 10,
+  "drishti_on_houses": [
+   4
+  ],
+  "lagna_where_own_sign": [
+   "Kanya",
+   "Dhanu"
+  ],
+  "lagna_where_exalted": [
+   "Dhanu"
+  ],
+  "lagna_where_debilitated": [
+   "Mithun"
+  ]
+ },
+ "Budh-11": {
+  "grah": "Budh",
+  "ghar": 11,
+  "drishti_on_houses": [
+   5
+  ],
+  "lagna_where_own_sign": [
+   "Singh",
+   "Vrishchik"
+  ],
+  "lagna_where_exalted": [
+   "Vrishchik"
+  ],
+  "lagna_where_debilitated": [
+   "Vrishabh"
+  ]
+ },
+ "Budh-12": {
+  "grah": "Budh",
+  "ghar": 12,
+  "drishti_on_houses": [
+   6
+  ],
+  "lagna_where_own_sign": [
+   "Kark",
+   "Tula"
+  ],
+  "lagna_where_exalted": [
+   "Tula"
+  ],
+  "lagna_where_debilitated": [
+   "Mesh"
+  ]
+ },
+ "Guru-1": {
+  "grah": "Guru",
+  "ghar": 1,
+  "drishti_on_houses": [
+   5,
+   7,
+   9
+  ],
+  "lagna_where_own_sign": [
+   "Dhanu",
+   "Meen"
+  ],
+  "lagna_where_exalted": [
+   "Kark"
+  ],
+  "lagna_where_debilitated": [
+   "Makar"
+  ]
+ },
+ "Guru-2": {
+  "grah": "Guru",
+  "ghar": 2,
+  "drishti_on_houses": [
+   6,
+   8,
+   10
+  ],
+  "lagna_where_own_sign": [
+   "Vrishchik",
+   "Kumbh"
+  ],
+  "lagna_where_exalted": [
+   "Mithun"
+  ],
+  "lagna_where_debilitated": [
+   "Dhanu"
+  ]
+ },
+ "Guru-3": {
+  "grah": "Guru",
+  "ghar": 3,
+  "drishti_on_houses": [
+   7,
+   9,
+   11
+  ],
+  "lagna_where_own_sign": [
+   "Tula",
+   "Makar"
+  ],
+  "lagna_where_exalted": [
+   "Vrishabh"
+  ],
+  "lagna_where_debilitated": [
+   "Vrishchik"
+  ]
+ },
+ "Guru-4": {
+  "grah": "Guru",
+  "ghar": 4,
+  "drishti_on_houses": [
+   8,
+   10,
+   12
+  ],
+  "lagna_where_own_sign": [
+   "Kanya",
+   "Dhanu"
+  ],
+  "lagna_where_exalted": [
+   "Mesh"
+  ],
+  "lagna_where_debilitated": [
+   "Tula"
+  ]
+ },
+ "Guru-5": {
+  "grah": "Guru",
+  "ghar": 5,
+  "drishti_on_houses": [
+   1,
+   9,
+   11
+  ],
+  "lagna_where_own_sign": [
+   "Singh",
+   "Vrishchik"
+  ],
+  "lagna_where_exalted": [
+   "Meen"
+  ],
+  "lagna_where_debilitated": [
+   "Kanya"
+  ]
+ },
+ "Guru-6": {
+  "grah": "Guru",
+  "ghar": 6,
+  "drishti_on_houses": [
+   2,
+   10,
+   12
+  ],
+  "lagna_where_own_sign": [
+   "Kark",
+   "Tula"
+  ],
+  "lagna_where_exalted": [
+   "Kumbh"
+  ],
+  "lagna_where_debilitated": [
+   "Singh"
+  ]
+ },
+ "Guru-7": {
+  "grah": "Guru",
+  "ghar": 7,
+  "drishti_on_houses": [
+   1,
+   3,
+   11
+  ],
+  "lagna_where_own_sign": [
+   "Mithun",
+   "Kanya"
+  ],
+  "lagna_where_exalted": [
+   "Makar"
+  ],
+  "lagna_where_debilitated": [
+   "Kark"
+  ]
+ },
+ "Guru-8": {
+  "grah": "Guru",
+  "ghar": 8,
+  "drishti_on_houses": [
+   2,
+   4,
+   12
+  ],
+  "lagna_where_own_sign": [
+   "Vrishabh",
+   "Singh"
+  ],
+  "lagna_where_exalted": [
+   "Dhanu"
+  ],
+  "lagna_where_debilitated": [
+   "Mithun"
+  ]
+ },
+ "Guru-9": {
+  "grah": "Guru",
+  "ghar": 9,
+  "drishti_on_houses": [
+   1,
+   3,
+   5
+  ],
+  "lagna_where_own_sign": [
+   "Mesh",
+   "Kark"
+  ],
+  "lagna_where_exalted": [
+   "Vrishchik"
+  ],
+  "lagna_where_debilitated": [
+   "Vrishabh"
+  ]
+ },
+ "Guru-10": {
+  "grah": "Guru",
+  "ghar": 10,
+  "drishti_on_houses": [
+   2,
+   4,
+   6
+  ],
+  "lagna_where_own_sign": [
+   "Mithun",
+   "Meen"
+  ],
+  "lagna_where_exalted": [
+   "Tula"
+  ],
+  "lagna_where_debilitated": [
+   "Mesh"
+  ]
+ },
+ "Guru-11": {
+  "grah": "Guru",
+  "ghar": 11,
+  "drishti_on_houses": [
+   3,
+   5,
+   7
+  ],
+  "lagna_where_own_sign": [
+   "Vrishabh",
+   "Kumbh"
+  ],
+  "lagna_where_exalted": [
+   "Kanya"
+  ],
+  "lagna_where_debilitated": [
+   "Meen"
+  ]
+ },
+ "Guru-12": {
+  "grah": "Guru",
+  "ghar": 12,
+  "drishti_on_houses": [
+   4,
+   6,
+   8
+  ],
+  "lagna_where_own_sign": [
+   "Mesh",
+   "Makar"
+  ],
+  "lagna_where_exalted": [
+   "Singh"
+  ],
+  "lagna_where_debilitated": [
+   "Kumbh"
+  ]
+ },
+ "Shukra-1": {
+  "grah": "Shukra",
+  "ghar": 1,
+  "drishti_on_houses": [
+   7
+  ],
+  "lagna_where_own_sign": [
+   "Vrishabh",
+   "Tula"
+  ],
+  "lagna_where_exalted": [
+   "Meen"
+  ],
+  "lagna_where_debilitated": [
+   "Kanya"
+  ]
+ },
+ "Shukra-2": {
+  "grah": "Shukra",
+  "ghar": 2,
+  "drishti_on_houses": [
+   8
+  ],
+  "lagna_where_own_sign": [
+   "Mesh",
+   "Kanya"
+  ],
+  "lagna_where_exalted": [
+   "Kumbh"
+  ],
+  "lagna_where_debilitated": [
+   "Singh"
+  ]
+ },
+ "Shukra-3": {
+  "grah": "Shukra",
+  "ghar": 3,
+  "drishti_on_houses": [
+   9
+  ],
+  "lagna_where_own_sign": [
+   "Singh",
+   "Meen"
+  ],
+  "lagna_where_exalted": [
+   "Makar"
+  ],
+  "lagna_where_debilitated": [
+   "Kark"
+  ]
+ },
+ "Shukra-4": {
+  "grah": "Shukra",
+  "ghar": 4,
+  "drishti_on_houses": [
+   10
+  ],
+  "lagna_where_own_sign": [
+   "Kark",
+   "Kumbh"
+  ],
+  "lagna_where_exalted": [
+   "Dhanu"
+  ],
+  "lagna_where_debilitated": [
+   "Mithun"
+  ]
+ },
+ "Shukra-5": {
+  "grah": "Shukra",
+  "ghar": 5,
+  "drishti_on_houses": [
+   11
+  ],
+  "lagna_where_own_sign": [
+   "Mithun",
+   "Makar"
+  ],
+  "lagna_where_exalted": [
+   "Vrishchik"
+  ],
+  "lagna_where_debilitated": [
+   "Vrishabh"
+  ]
+ },
+ "Shukra-6": {
+  "grah": "Shukra",
+  "ghar": 6,
+  "drishti_on_houses": [
+   12
+  ],
+  "lagna_where_own_sign": [
+   "Vrishabh",
+   "Dhanu"
+  ],
+  "lagna_where_exalted": [
+   "Tula"
+  ],
+  "lagna_where_debilitated": [
+   "Mesh"
+  ]
+ },
+ "Shukra-7": {
+  "grah": "Shukra",
+  "ghar": 7,
+  "drishti_on_houses": [
+   1
+  ],
+  "lagna_where_own_sign": [
+   "Mesh",
+   "Vrishchik"
+  ],
+  "lagna_where_exalted": [
+   "Kanya"
+  ],
+  "lagna_where_debilitated": [
+   "Meen"
+  ]
+ },
+ "Shukra-8": {
+  "grah": "Shukra",
+  "ghar": 8,
+  "drishti_on_houses": [
+   2
+  ],
+  "lagna_where_own_sign": [
+   "Tula",
+   "Meen"
+  ],
+  "lagna_where_exalted": [
+   "Singh"
+  ],
+  "lagna_where_debilitated": [
+   "Kumbh"
+  ]
+ },
+ "Shukra-9": {
+  "grah": "Shukra",
+  "ghar": 9,
+  "drishti_on_houses": [
+   3
+  ],
+  "lagna_where_own_sign": [
+   "Kanya",
+   "Kumbh"
+  ],
+  "lagna_where_exalted": [
+   "Kark"
+  ],
+  "lagna_where_debilitated": [
+   "Makar"
+  ]
+ },
+ "Shukra-10": {
+  "grah": "Shukra",
+  "ghar": 10,
+  "drishti_on_houses": [
+   4
+  ],
+  "lagna_where_own_sign": [
+   "Singh",
+   "Makar"
+  ],
+  "lagna_where_exalted": [
+   "Mithun"
+  ],
+  "lagna_where_debilitated": [
+   "Dhanu"
+  ]
+ },
+ "Shukra-11": {
+  "grah": "Shukra",
+  "ghar": 11,
+  "drishti_on_houses": [
+   5
+  ],
+  "lagna_where_own_sign": [
+   "Kark",
+   "Dhanu"
+  ],
+  "lagna_where_exalted": [
+   "Vrishabh"
+  ],
+  "lagna_where_debilitated": [
+   "Vrishchik"
+  ]
+ },
+ "Shukra-12": {
+  "grah": "Shukra",
+  "ghar": 12,
+  "drishti_on_houses": [
+   6
+  ],
+  "lagna_where_own_sign": [
+   "Mithun",
+   "Vrishchik"
+  ],
+  "lagna_where_exalted": [
+   "Mesh"
+  ],
+  "lagna_where_debilitated": [
+   "Tula"
+  ]
+ },
+ "Shani-1": {
+  "grah": "Shani",
+  "ghar": 1,
+  "drishti_on_houses": [
+   3,
+   7,
+   10
+  ],
+  "lagna_where_own_sign": [
+   "Makar",
+   "Kumbh"
+  ],
+  "lagna_where_exalted": [
+   "Tula"
+  ],
+  "lagna_where_debilitated": [
+   "Mesh"
+  ]
+ },
+ "Shani-2": {
+  "grah": "Shani",
+  "ghar": 2,
+  "drishti_on_houses": [
+   4,
+   8,
+   11
+  ],
+  "lagna_where_own_sign": [
+   "Dhanu",
+   "Makar"
+  ],
+  "lagna_where_exalted": [
+   "Kanya"
+  ],
+  "lagna_where_debilitated": [
+   "Meen"
+  ]
+ },
+ "Shani-3": {
+  "grah": "Shani",
+  "ghar": 3,
+  "drishti_on_houses": [
+   5,
+   9,
+   12
+  ],
+  "lagna_where_own_sign": [
+   "Vrishchik",
+   "Dhanu"
+  ],
+  "lagna_where_exalted": [
+   "Singh"
+  ],
+  "lagna_where_debilitated": [
+   "Kumbh"
+  ]
+ },
+ "Shani-4": {
+  "grah": "Shani",
+  "ghar": 4,
+  "drishti_on_houses": [
+   1,
+   6,
+   10
+  ],
+  "lagna_where_own_sign": [
+   "Tula",
+   "Vrishchik"
+  ],
+  "lagna_where_exalted": [
+   "Kark"
+  ],
+  "lagna_where_debilitated": [
+   "Makar"
+  ]
+ },
+ "Shani-5": {
+  "grah": "Shani",
+  "ghar": 5,
+  "drishti_on_houses": [
+   2,
+   7,
+   11
+  ],
+  "lagna_where_own_sign": [
+   "Kanya",
+   "Tula"
+  ],
+  "lagna_where_exalted": [
+   "Mithun"
+  ],
+  "lagna_where_debilitated": [
+   "Dhanu"
+  ]
+ },
+ "Shani-6": {
+  "grah": "Shani",
+  "ghar": 6,
+  "drishti_on_houses": [
+   3,
+   8,
+   12
+  ],
+  "lagna_where_own_sign": [
+   "Singh",
+   "Kanya"
+  ],
+  "lagna_where_exalted": [
+   "Vrishabh"
+  ],
+  "lagna_where_debilitated": [
+   "Vrishchik"
+  ]
+ },
+ "Shani-7": {
+  "grah": "Shani",
+  "ghar": 7,
+  "drishti_on_houses": [
+   1,
+   4,
+   9
+  ],
+  "lagna_where_own_sign": [
+   "Kark",
+   "Singh"
+  ],
+  "lagna_where_exalted": [
+   "Mesh"
+  ],
+  "lagna_where_debilitated": [
+   "Tula"
+  ]
+ },
+ "Shani-8": {
+  "grah": "Shani",
+  "ghar": 8,
+  "drishti_on_houses": [
+   2,
+   5,
+   10
+  ],
+  "lagna_where_own_sign": [
+   "Mithun",
+   "Kark"
+  ],
+  "lagna_where_exalted": [
+   "Meen"
+  ],
+  "lagna_where_debilitated": [
+   "Kanya"
+  ]
+ },
+ "Shani-9": {
+  "grah": "Shani",
+  "ghar": 9,
+  "drishti_on_houses": [
+   3,
+   6,
+   11
+  ],
+  "lagna_where_own_sign": [
+   "Vrishabh",
+   "Mithun"
+  ],
+  "lagna_where_exalted": [
+   "Kumbh"
+  ],
+  "lagna_where_debilitated": [
+   "Singh"
+  ]
+ },
+ "Shani-10": {
+  "grah": "Shani",
+  "ghar": 10,
+  "drishti_on_houses": [
+   4,
+   7,
+   12
+  ],
+  "lagna_where_own_sign": [
+   "Mesh",
+   "Vrishabh"
+  ],
+  "lagna_where_exalted": [
+   "Makar"
+  ],
+  "lagna_where_debilitated": [
+   "Kark"
+  ]
+ },
+ "Shani-11": {
+  "grah": "Shani",
+  "ghar": 11,
+  "drishti_on_houses": [
+   1,
+   5,
+   8
+  ],
+  "lagna_where_own_sign": [
+   "Mesh",
+   "Meen"
+  ],
+  "lagna_where_exalted": [
+   "Dhanu"
+  ],
+  "lagna_where_debilitated": [
+   "Mithun"
+  ]
+ },
+ "Shani-12": {
+  "grah": "Shani",
+  "ghar": 12,
+  "drishti_on_houses": [
+   2,
+   6,
+   9
+  ],
+  "lagna_where_own_sign": [
+   "Kumbh",
+   "Meen"
+  ],
+  "lagna_where_exalted": [
+   "Vrishchik"
+  ],
+  "lagna_where_debilitated": [
+   "Vrishabh"
+  ]
+ },
+ "Rahu-1": {
+  "grah": "Rahu",
+  "ghar": 1,
+  "drishti_on_houses": [
+   7
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   5,
+   9
+  ]
+ },
+ "Rahu-2": {
+  "grah": "Rahu",
+  "ghar": 2,
+  "drishti_on_houses": [
+   8
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   6,
+   10
+  ]
+ },
+ "Rahu-3": {
+  "grah": "Rahu",
+  "ghar": 3,
+  "drishti_on_houses": [
+   9
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   7,
+   11
+  ]
+ },
+ "Rahu-4": {
+  "grah": "Rahu",
+  "ghar": 4,
+  "drishti_on_houses": [
+   10
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   8,
+   12
+  ]
+ },
+ "Rahu-5": {
+  "grah": "Rahu",
+  "ghar": 5,
+  "drishti_on_houses": [
+   11
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   1,
+   9
+  ]
+ },
+ "Rahu-6": {
+  "grah": "Rahu",
+  "ghar": 6,
+  "drishti_on_houses": [
+   12
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   2,
+   10
+  ]
+ },
+ "Rahu-7": {
+  "grah": "Rahu",
+  "ghar": 7,
+  "drishti_on_houses": [
+   1
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   3,
+   11
+  ]
+ },
+ "Rahu-8": {
+  "grah": "Rahu",
+  "ghar": 8,
+  "drishti_on_houses": [
+   2
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   4,
+   12
+  ]
+ },
+ "Rahu-9": {
+  "grah": "Rahu",
+  "ghar": 9,
+  "drishti_on_houses": [
+   3
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   1,
+   5
+  ]
+ },
+ "Rahu-10": {
+  "grah": "Rahu",
+  "ghar": 10,
+  "drishti_on_houses": [
+   4
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   2,
+   6
+  ]
+ },
+ "Rahu-11": {
+  "grah": "Rahu",
+  "ghar": 11,
+  "drishti_on_houses": [
+   5
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   3,
+   7
+  ]
+ },
+ "Rahu-12": {
+  "grah": "Rahu",
+  "ghar": 12,
+  "drishti_on_houses": [
+   6
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   4,
+   8
+  ]
+ },
+ "Ketu-1": {
+  "grah": "Ketu",
+  "ghar": 1,
+  "drishti_on_houses": [
+   7
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   5,
+   9
+  ]
+ },
+ "Ketu-2": {
+  "grah": "Ketu",
+  "ghar": 2,
+  "drishti_on_houses": [
+   8
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   6,
+   10
+  ]
+ },
+ "Ketu-3": {
+  "grah": "Ketu",
+  "ghar": 3,
+  "drishti_on_houses": [
+   9
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   7,
+   11
+  ]
+ },
+ "Ketu-4": {
+  "grah": "Ketu",
+  "ghar": 4,
+  "drishti_on_houses": [
+   10
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   8,
+   12
+  ]
+ },
+ "Ketu-5": {
+  "grah": "Ketu",
+  "ghar": 5,
+  "drishti_on_houses": [
+   11
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   1,
+   9
+  ]
+ },
+ "Ketu-6": {
+  "grah": "Ketu",
+  "ghar": 6,
+  "drishti_on_houses": [
+   12
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   2,
+   10
+  ]
+ },
+ "Ketu-7": {
+  "grah": "Ketu",
+  "ghar": 7,
+  "drishti_on_houses": [
+   1
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   3,
+   11
+  ]
+ },
+ "Ketu-8": {
+  "grah": "Ketu",
+  "ghar": 8,
+  "drishti_on_houses": [
+   2
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   4,
+   12
+  ]
+ },
+ "Ketu-9": {
+  "grah": "Ketu",
+  "ghar": 9,
+  "drishti_on_houses": [
+   3
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   1,
+   5
+  ]
+ },
+ "Ketu-10": {
+  "grah": "Ketu",
+  "ghar": 10,
+  "drishti_on_houses": [
+   4
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   2,
+   6
+  ]
+ },
+ "Ketu-11": {
+  "grah": "Ketu",
+  "ghar": 11,
+  "drishti_on_houses": [
+   5
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   3,
+   7
+  ]
+ },
+ "Ketu-12": {
+  "grah": "Ketu",
+  "ghar": 12,
+  "drishti_on_houses": [
+   6
+  ],
+  "lagna_where_own_sign": [],
+  "lagna_where_exalted": [],
+  "lagna_where_debilitated": [],
+  "drishti_school_dependent": [
+   4,
+   8
+  ]
+ }
+}

@@ -1,0 +1,57 @@
+/* AstroCheck Reel Kit — base layers, zones, captions, URL tag/chip, badge, end card.
+   The kit is an engine, not a look: every reel sets its own theme tokens in reel.html (:root{--bg..}). */
+@font-face{font-family:IB;src:url(fonts/InterDisplay-Black.otf)}
+@font-face{font-family:IBo;src:url(fonts/InterDisplay-Bold.otf)}
+@font-face{font-family:IS;src:url(fonts/InterDisplay-SemiBold.otf)}
+@font-face{font-family:IL;src:url(fonts/InterDisplay-Light.otf)}
+@font-face{font-family:KB;src:url(fonts/Kalam-700.woff2)}
+@font-face{font-family:KR;src:url(fonts/Kalam-400.woff2)}
+@font-face{font-family:BD;src:url(fonts/Bodoni-500.ttf)}
+@font-face{font-family:BI;src:url(fonts/Bodoni-Italic.ttf)}
+:root{
+  /* default theme tokens (override per reel) */
+  --bg:#10213f; --bg2:#1c335e; --ink:#f7efe0; --ink2:#c9d3e6; --accent:#f2b04a; --accent2:#7fd3c2;
+  --panel:#f7efe0; --panel-ink:#10213f; --cap-ink:#ffffff; --cap-stroke:#0b1426; --cap-key:var(--accent);
+  --chip-bg:#f2b04a; --chip-ink:#10213f;
+  --f-display:IB; --f-body:IBo; --f-hand:KB; --f-serif:BD;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#st{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+.o{position:absolute}
+.sc{position:absolute;inset:0;overflow:hidden;opacity:0;transform-origin:540px 885px;will-change:transform,opacity}
+canvas{position:absolute;left:0;top:0}
+/* ---- zones (1080x1920): 0-120 none · 120-260 badge row · 260-620 title · 620-1150 hero · 1150-1420 captions · 1440-1620 chip · nothing below 1632 or right of 960 ---- */
+.mk-title{position:absolute;left:60px;width:900px;top:290px;text-align:center;font:104px/1.02 var(--f-display);color:var(--ink);text-wrap:balance;letter-spacing:-.01em}
+.mk-label{font:60px/1.05 var(--f-body);color:var(--ink)}
+.mk-big{font:96px/1 var(--f-display);color:var(--ink)}
+/* badge row */
+#mk-badge{position:absolute;left:60px;top:150px;height:72px;padding:0 26px;border-radius:40px;display:flex;align-items:center;gap:12px;background:rgba(0,0,0,.42);border:2px solid rgba(255,255,255,.28);font:44px var(--f-body);color:#fff;white-space:nowrap;letter-spacing:.02em;z-index:40}
+#mk-badge b{font-family:var(--f-display);color:var(--accent)}
+/* captions */
+#mk-cap{position:absolute;left:60px;width:900px;top:1150px;height:270px;display:flex;align-items:center;justify-content:center;text-align:center;z-index:45;pointer-events:none}
+#mk-cap .line{font:90px/1.06 var(--f-display);color:var(--cap-ink);-webkit-text-stroke:10px var(--cap-stroke);paint-order:stroke fill;text-wrap:balance;letter-spacing:-.005em}
+#mk-cap .w{display:inline-block;transform-origin:50% 70%;margin:0 .07em}
+#mk-cap .w.k{color:var(--cap-key)}
+.skin2 #mk-cap .line{-webkit-text-stroke:0;background:rgba(8,12,24,.72);padding:10px 26px 16px;border-radius:22px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.skin3 #mk-cap .line{font-family:var(--f-hand);font-size:92px;-webkit-text-stroke:9px var(--cap-stroke)}
+/* single URL element: tag (badge row) -> chip (chip zone) */
+#mk-url{position:absolute;z-index:46;display:flex;align-items:center;justify-content:center;gap:14px;white-space:nowrap;border-radius:60px;background:var(--chip-bg);color:var(--chip-ink);font:44px var(--f-display);box-shadow:0 14px 30px rgba(0,0,0,.35);transform-origin:50% 50%}
+#mk-url .free{font-family:var(--f-display)}
+#mk-url .dot{opacity:.6}
+/* end card overlay */
+#mk-end{position:absolute;left:60px;width:900px;top:330px;z-index:50;opacity:0;border-radius:44px;background:var(--panel);color:var(--panel-ink);padding:46px 40px 40px;text-align:center;box-shadow:0 30px 60px rgba(0,0,0,.45)}
+#mk-end img{width:150px;height:150px;border-radius:36px}
+#mk-end .tool{margin-top:16px;font:56px/1.1 var(--f-display)}
+#mk-end .url{margin-top:4px;font:110px/1.05 var(--f-display);letter-spacing:-.015em}
+#mk-end .hd{margin-top:22px;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 30px;font:46px var(--f-body)}
+#mk-end .hd span{display:inline-flex;align-items:center;gap:10px;white-space:nowrap}
+#mk-end .hd svg{width:46px;height:46px}
+#mk-end .next{margin-top:22px;font:50px var(--f-display);color:var(--accent)}
+#mk-end .disc{margin-top:14px;font:44px var(--f-body);opacity:.75}
+/* overlays */
+#mk-vig{position:absolute;inset:0;z-index:60;pointer-events:none;background:radial-gradient(90% 70% at 50% 45%,rgba(0,0,0,0) 60%,rgba(0,0,0,.35))}
+#mk-guides{position:absolute;inset:0;z-index:99;pointer-events:none;display:none}
+.guides #mk-guides{display:block}
+#mk-guides i{position:absolute;left:0;width:1080px;border-top:3px dashed rgba(255,0,120,.8);font:28px IS;color:#ff2a88}
+#mk-guides u{position:absolute;top:0;left:960px;width:120px;height:1920px;background:rgba(255,0,120,.15)}

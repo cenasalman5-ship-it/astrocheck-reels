@@ -1,0 +1,1983 @@
+{
+ "version": 1,
+ "order": [
+  "Rahu-11",
+  "Shani-7",
+  "Mangal-7",
+  "Shani-1",
+  "Guru-7",
+  "Shukra-7",
+  "Rahu-7",
+  "Chandra-4",
+  "Mangal-1",
+  "Ketu-12",
+  "Surya-10",
+  "Shukra-2",
+  "Shani-10",
+  "Guru-5",
+  "Mangal-4",
+  "Chandra-7",
+  "Budh-10",
+  "Shani-8",
+  "Guru-1",
+  "Ketu-7",
+  "Mangal-8",
+  "Shukra-1",
+  "Shani-12",
+  "Guru-9",
+  "Rahu-1",
+  "Mangal-12",
+  "Shani-4"
+ ],
+ "cards": {
+  "Rahu-11": {
+   "id": "R11",
+   "grah": "Rahu",
+   "ghar": 11,
+   "part": 1,
+   "myth": "Rahu kahin bhi ho, bas nuksaan hi karta hai",
+   "A": [
+    {
+     "id": "R11-A1",
+     "claim": "From house 11, Rahu's graha drishti falls on house(s) 5.",
+     "say": "Rahu ki nazar (drishti) seedhi 5th ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "R11-A2",
+     "claim": "Rahu in house 11 always means Ketu in house 5 (the nodes are exactly 180 degrees apart).",
+     "say": "Rahu 11 me, toh Ketu hamesha 5 me",
+     "basis": "Astronomy: lunar nodes are always opposite"
+    },
+    {
+     "id": "R11-A3",
+     "claim": "11th is an upachaya house; natural malefics like Rahu are classically said to do better in upachaya houses (3, 6, 10, 11).",
+     "say": "Upachaya ghar me Rahu ko behtar maana gaya",
+     "basis": "Phaladeepika / standard upachaya rule"
+    },
+    {
+     "id": "R11-A4",
+     "claim": "11th house signifies gains, income, elder siblings and social network.",
+     "say": "11th ghar matlab labh aur network",
+     "basis": "BPHS house significations"
+    },
+    {
+     "id": "R11-A5",
+     "claim": "Rahu's Vimshottari mahadasha lasts 18 years; a placement's results are felt most in its dasha/antardasha.",
+     "say": "Rahu mahadasha 18 saal ki hoti hai",
+     "basis": "Vimshottari dasha (BPHS)"
+    }
+   ],
+   "B": [
+    {
+     "id": "R11-B1",
+     "claim": "Some schools also give Rahu 5th/9th aspects; from house 11 these would fall on 3, 7.",
+     "say": "Kuch pandit Rahu ki nazar 3, 7 par bhi maante"
+    },
+    {
+     "id": "R11-B2",
+     "claim": "Rahu in 11th is popularly linked to sudden or unconventional gains.",
+     "say": "Achanak ya hatke labh maana jaata hai"
+    }
+   ],
+   "kyun_nuggets": [
+    "drishti: 11 me baith ke Rahu 5th ghar (padhai, creativity) ko dekhta hai (R11-A1)",
+    "daily-life: upachaya ghar = time ke saath behtar hone wala ghar, isliye Rahu yahan behtar maana jaata hai (R11-A3, R11-A4)",
+    "dasha: 18 saal ki Rahu dasha me 11th ka asar sabse zyada dikhta hai (R11-A5)"
+   ],
+   "twists": [
+    "'Rahu = villain' myth todo: ek ghar jahan Rahu ko achha maana jaata hai",
+    "Jodi angle: Rahu 11 me toh saamne Ketu 5 me — ek hi axis ki do kahaniyan",
+    "Network/doston se labh — 11th ghar ka asli matlab"
+   ],
+   "fear_prone": false,
+   "never_say": [
+    "Lottery/jackpot ki guarantee",
+    "Rahu-11 = galat tareeke ka paisa",
+    "Ketu-5 = bachchon ki problem",
+    "Exact rakam ya date of gain"
+   ],
+   "free_remedies": [
+    "Doston aur network me imaandaar rahein, shortcut se bachein",
+    "Mahine me ek baar kisi zarooratmand ki niswarth madad"
+   ]
+  },
+  "Shani-7": {
+   "id": "S7",
+   "grah": "Shani",
+   "ghar": 7,
+   "part": 2,
+   "myth": "Saatve ghar ka Shani matlab shaadi kabhi sukhi nahi hogi",
+   "A": [
+    {
+     "id": "S7-A1",
+     "claim": "Shani gets dig-bala (directional strength) in the 7th house.",
+     "say": "Shani ko 7th me digbal (disha-bal) milta",
+     "basis": "BPHS dig-bala"
+    },
+    {
+     "id": "S7-A2",
+     "claim": "From house 7, Shani's graha drishti falls on house(s) 1, 4, 9.",
+     "say": "Shani ki nazar 1, 4, 9 ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "S7-A3",
+     "claim": "Shani in house 7 (a kendra) is in own/exalted sign for Kark, Singh, Mesh lagna, forming Sasa Mahapurusha yoga (subject to the full chart).",
+     "say": "Kark, Singh, Mesh lagna me Sasa yoga",
+     "basis": "BPHS Pancha Mahapurusha yoga + computed table (astro_tables.json)"
+    },
+    {
+     "id": "S7-A4",
+     "claim": "Shani in house 7 is debilitated only for Tula lagna.",
+     "say": "Neech sirf Tula lagna me hota hai",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "S7-A5",
+     "claim": "Shani's Vimshottari mahadasha lasts 19 years; a placement's results are felt most in its dasha/antardasha.",
+     "say": "Shani mahadasha 19 saal ki hoti hai",
+     "basis": "Vimshottari dasha (BPHS)"
+    }
+   ],
+   "B": [
+    {
+     "id": "S7-B1",
+     "claim": "Shani in 7th is popularly said to bring a serious, patient and committed approach to partnership — a tendency, not a rule.",
+     "say": "Rishte me gambhir, dhairya wala nazariya maana jaata hai"
+    },
+    {
+     "id": "S7-B2",
+     "claim": "Shani in 7th is popularly said to favour a responsible, mature partner.",
+     "say": "Samajhdaar, zimmedaar jeevansathi maana jaata hai"
+    }
+   ],
+   "kyun_nuggets": [
+    "yoga/digbal: Shani ko sabse zyada disha-bal 7th me hi milta hai (S7-A1)",
+    "drishti: 7th se Shani lagna, 4th aur 9th teeno ko dekhta hai (S7-A2)",
+    "lagna-flip: Kark, Singh, Mesh lagna me yahi Shani Sasa yoga banata hai (S7-A3)"
+   ],
+   "twists": [
+    "'Shani 7 = shaadi kharab' vs digbal ka sach",
+    "Lagna badlo, kahani badlo: Mesh me ucch, Tula me neech",
+    "Shani = dhairya aur tikau rishta"
+   ],
+   "fear_prone": true,
+   "never_say": [
+    "Shaadi tootegi / talaak hoga",
+    "Shaadi nahi hogi",
+    "Jeevansathi ki sehat ya umar",
+    "Shaadi ki fixed umar batana"
+   ],
+   "free_remedies": [
+    "Rishte me waqt ke paaband rahein, vaade nibhaayein",
+    "Bujurgon aur mazdooron ka samman, Saturday ko chhoti seva"
+   ]
+  },
+  "Mangal-7": {
+   "id": "M7",
+   "grah": "Mangal",
+   "ghar": 7,
+   "part": 3,
+   "myth": "Mangal saatve matlab pakka Manglik, shaadi me jhagde hi jhagde",
+   "A": [
+    {
+     "id": "M7-A1",
+     "claim": "Mangal in house 7 from lagna is one of the traditional Manglik (Kuja dosha) positions (houses 1, 4, 7, 8, 12 are the widely cited list; some traditions also add 2).",
+     "say": "7th Mangal traditional Manglik position me aata",
+     "basis": "Kuja dosha tradition (marriage-matching practice)"
+    },
+    {
+     "id": "M7-A2",
+     "claim": "From house 7, Mangal's graha drishti falls on house(s) 1, 2, 10.",
+     "say": "Mangal ki nazar 1, 2, 10 ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "M7-A3",
+     "claim": "Mangal in house 7 (a kendra) is in own/exalted sign for Vrishabh, Tula, Kark lagna, forming Ruchaka Mahapurusha yoga (subject to the full chart).",
+     "say": "Vrishabh, Tula, Kark lagna me Ruchaka yoga",
+     "basis": "BPHS Pancha Mahapurusha yoga + computed table (astro_tables.json)"
+    },
+    {
+     "id": "M7-A4",
+     "claim": "Mangal in house 7 is debilitated only for Makar lagna.",
+     "say": "Neech sirf Makar lagna me hota hai",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "M7-A5",
+     "claim": "In Kundli milan, Manglik status is compared across both charts, never judged from one chart alone.",
+     "say": "Milan me dono kundli saath dekhi jaati",
+     "basis": "Standard Kundli milan practice"
+    }
+   ],
+   "B": [
+    {
+     "id": "M7-B1",
+     "claim": "Many traditions list parihara (cancellation) conditions for Kuja dosha, e.g. own/exalted sign — these vary by school.",
+     "say": "Kuch pandit own rashi me dosha cancel maante"
+    },
+    {
+     "id": "M7-B2",
+     "claim": "Some traditions also check Kuja dosha from Chandra and Shukra, not only lagna.",
+     "say": "Kuch pandit Chandra, Shukra se bhi dekhte hain"
+    },
+    {
+     "id": "M7-B3",
+     "claim": "Common milan practice: if both charts carry Kuja dosha, the dosha is considered balanced/neutralised (practice varies by school).",
+     "say": "Dono Manglik hon to asar santulit maana jaata hai"
+    }
+   ],
+   "kyun_nuggets": [
+    "lagna-flip: Kark lagna me yahi Mangal ucch + Ruchaka yoga (M7-A3)",
+    "drishti: 7th se Mangal 10th (career) ko bhi dekhta hai — energy kaam me (M7-A2)",
+    "daily-life: milan me dono kundli saath dekhi jaati hain, ek se faisla nahi (M7-A5)"
+   ],
+   "twists": [
+    "Manglik ka darr vs Ruchaka yoga ka sach",
+    "Ek hi Mangal: Kark me ucch, Makar me neech",
+    "Mangal 7 ki nazar career pe bhi"
+   ],
+   "fear_prone": true,
+   "never_say": [
+    "Manglik se shaadi = jeevansathi ko khatra/maut",
+    "Talaak pakka",
+    "Sirf kumbh/pedh vivah se hi theek hoga",
+    "Manglik insaan 'khatarnak' hai"
+   ],
+   "free_remedies": [
+    "Gussa aaye toh 10 second ruk kar bolein",
+    "Roz exercise ya khel me energy lagaayein"
+   ]
+  },
+  "Shani-1": {
+   "id": "S1",
+   "grah": "Shani",
+   "ghar": 1,
+   "part": 4,
+   "myth": "Lagna me Shani matlab zindagi bhar sangharsh aur dukh",
+   "A": [
+    {
+     "id": "S1-A1",
+     "claim": "From house 1, Shani's graha drishti falls on house(s) 3, 7, 10.",
+     "say": "Shani ki nazar 3, 7, 10 ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "S1-A2",
+     "claim": "Shani in house 1 (a kendra) is in own/exalted sign for Makar, Kumbh, Tula lagna, forming Sasa Mahapurusha yoga (subject to the full chart).",
+     "say": "Makar, Kumbh, Tula lagna me Sasa yoga",
+     "basis": "BPHS Pancha Mahapurusha yoga + computed table (astro_tables.json)"
+    },
+    {
+     "id": "S1-A3",
+     "claim": "For Tula lagna Shani is yogakaraka (lord of 4th and 5th) and is also exalted in the lagna.",
+     "say": "Tula lagna: yogakaraka Shani ucch hokar lagna me",
+     "basis": "BPHS yogakaraka rule + computed table (astro_tables.json)"
+    },
+    {
+     "id": "S1-A4",
+     "claim": "Shani in house 1 is debilitated only for Mesh lagna.",
+     "say": "Neech sirf Mesh lagna me hota hai",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "S1-A5",
+     "claim": "Shani signifies discipline, patience and sustained hard work.",
+     "say": "Shani ka karak: discipline, dhairya, mehnat",
+     "basis": "BPHS karakatva"
+    }
+   ],
+   "B": [
+    {
+     "id": "S1-B1",
+     "claim": "Shani in lagna is often said to give a serious, mature nature from a young age.",
+     "say": "Kam umar se gambhir swabhaav maana jaata hai"
+    },
+    {
+     "id": "S1-B2",
+     "claim": "Shani's results are commonly said to grow with age and effort.",
+     "say": "Kuch pandit kehte hain umar ke saath phal badhta"
+    }
+   ],
+   "kyun_nuggets": [
+    "lagna-flip: Tula lagna me yahi Shani ucch + yogakaraka + Sasa yoga (S1-A2, S1-A3)",
+    "drishti: lagna ka Shani 10th (karma) ko dekhta hai — mehnat se career (S1-A1)",
+    "daily-life: Shani = discipline ka grah, sazaa ka nahi (S1-A5)"
+   ],
+   "twists": [
+    "Lagna ka Shani: 'dukh' nahi, 'discipline'",
+    "Makar/Kumbh/Tula lagna wale — yeh Sasa yoga hai",
+    "Shani dheere deta hai, par tikau deta hai"
+   ],
+   "fear_prone": true,
+   "never_say": [
+    "Sehat kharab / rog hoga",
+    "Zindagi barbaad",
+    "Hamesha sade sati jaisa",
+    "7th drishti se shaadi nahi hogi"
+   ],
+   "free_remedies": [
+    "Roz ek fixed routine — samay pe uthna, samay pe kaam",
+    "Kisi bujurg ya mazdoor ki niswarth madad"
+   ]
+  },
+  "Guru-7": {
+   "id": "G7",
+   "grah": "Guru",
+   "ghar": 7,
+   "part": 5,
+   "myth": "Guru saatve hai toh shaadi ki guarantee, kuch dekhne ki zarurat nahi",
+   "A": [
+    {
+     "id": "G7-A1",
+     "claim": "From house 7, Guru's graha drishti falls on house(s) 1, 3, 11.",
+     "say": "Guru ki nazar 1, 3, 11 ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "G7-A2",
+     "claim": "Guru in house 7 (a kendra) is in own/exalted sign for Mithun, Kanya, Makar lagna, forming Hamsa Mahapurusha yoga (subject to the full chart).",
+     "say": "Mithun, Kanya, Makar lagna me Hamsa yoga",
+     "basis": "BPHS Pancha Mahapurusha yoga + computed table (astro_tables.json)"
+    },
+    {
+     "id": "G7-A3",
+     "claim": "Guru in house 7 is debilitated only for Kark lagna.",
+     "say": "Kark lagna me yahi Guru neech hota",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "G7-A4",
+     "claim": "Guru's 7th drishti from the 7th falls on the lagna; a natural benefic aspecting lagna is classically considered supportive.",
+     "say": "Guru ki 7th drishti seedhi lagna par",
+     "basis": "Standard drishti rule + natural benefic nature (BPHS)"
+    },
+    {
+     "id": "G7-A5",
+     "claim": "Guru's Vimshottari mahadasha lasts 16 years; a placement's results are felt most in its dasha/antardasha.",
+     "say": "Guru mahadasha 16 saal ki hoti hai",
+     "basis": "Vimshottari dasha (BPHS)"
+    }
+   ],
+   "B": [
+    {
+     "id": "G7-B1",
+     "claim": "For Mithun and Kanya lagna Guru owns kendras; some schools apply 'kendradhipati dosha' here.",
+     "say": "Kuch pandit yahan kendradhipati dosha bhi dekhte hain"
+    },
+    {
+     "id": "G7-B2",
+     "claim": "Guru in 7th is popularly linked with a wise or respected partner.",
+     "say": "Samajhdaar, sammanit jeevansathi maana jaata hai"
+    }
+   ],
+   "kyun_nuggets": [
+    "drishti: 7th se Guru lagna, 3rd aur 11th teeno pe nazar daalta hai (G7-A1, G7-A4)",
+    "lagna-flip: Makar lagna me ucch Hamsa yoga vs Kark lagna me neech (G7-A2, G7-A3)",
+    "dasha: 16 saal ki Guru dasha me iska asar zyada (G7-A5)"
+   ],
+   "twists": [
+    "'Achha grah = guarantee' myth todo",
+    "Guru 7 me baith ke aap (lagna) ko dekhta hai",
+    "Ek Guru, do lagna: Makar me ucch, Kark me neech"
+   ],
+   "fear_prone": false,
+   "never_say": [
+    "Shaadi ki guarantee",
+    "Partner ka exact naam/pesha",
+    "Kark lagna walon ki shaadi kharab"
+   ],
+   "free_remedies": [
+    "Gyaan baantein — kisi bachche ko free padhaayein",
+    "Jeevansathi/business partner ki salah dhyaan se sunein"
+   ]
+  },
+  "Shukra-7": {
+   "id": "SK7",
+   "grah": "Shukra",
+   "ghar": 7,
+   "part": 6,
+   "myth": "Shukra saatve me hai toh shaadi apne aap perfect ho jaayegi",
+   "A": [
+    {
+     "id": "SK7-A1",
+     "claim": "Shukra is the natural karaka of the 7th house (spouse, partnership).",
+     "say": "Shukra khud 7th ghar ka karak (sanket-grah)",
+     "basis": "BPHS karaka list"
+    },
+    {
+     "id": "SK7-A2",
+     "claim": "From house 7, Shukra's graha drishti falls on house(s) 1.",
+     "say": "Shukra ki nazar (drishti) seedhi lagna par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "SK7-A3",
+     "claim": "Shukra in house 7 (a kendra) is in own/exalted sign for Mesh, Vrishchik, Kanya lagna, forming Malavya Mahapurusha yoga (subject to the full chart).",
+     "say": "Mesh, Vrishchik, Kanya lagna me Malavya yoga",
+     "basis": "BPHS Pancha Mahapurusha yoga + computed table (astro_tables.json)"
+    },
+    {
+     "id": "SK7-A4",
+     "claim": "Shukra in house 7 is debilitated only for Meen lagna.",
+     "say": "Neech sirf Meen lagna me hota hai",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "SK7-A5",
+     "claim": "Shukra's Vimshottari mahadasha is 20 years — the longest of all nine.",
+     "say": "Shukra dasha 20 saal, sabse lambi",
+     "basis": "Vimshottari dasha (BPHS)"
+    }
+   ],
+   "B": [
+    {
+     "id": "SK7-B1",
+     "claim": "'Karako bhava nashaya' (karaka in its own bhava may weaken it) is applied by some schools to Shukra in 7th; many relax it in own/exalted sign.",
+     "say": "Kuch pandit 'karako bhava nashaya' niyam lagaate hain"
+    },
+    {
+     "id": "SK7-B2",
+     "claim": "Shukra in 7th is popularly linked to an artistic, attractive partner.",
+     "say": "Kalatmak, aakarshak jeevansathi maana jaata hai"
+    }
+   ],
+   "kyun_nuggets": [
+    "yoga: karak apne hi ghar me — achha ya nahi? paradox (SK7-A1 + SK7-B1)",
+    "lagna-flip: Kanya lagna me ucch Malavya vs Meen lagna me neech (SK7-A3, SK7-A4)",
+    "dasha: 20 saal — sabse lambi dasha Shukra ki (SK7-A5)"
+   ],
+   "twists": [
+    "Karak apne ghar me: blessing ya paradox?",
+    "Malavya yoga wale 3 lagna",
+    "Shukra ki nazar seedhi aap par"
+   ],
+   "fear_prone": false,
+   "never_say": [
+    "Affair / dhoka",
+    "Ek se zyada shaadi",
+    "Shaadi tootegi",
+    "'Karako bhava nashaya' = shaadi kharab pakka"
+   ],
+   "free_remedies": [
+    "Partner ki chhoti tareef roz karein",
+    "Ghar saaf-sundar rakhein, saaf kapde pehnein"
+   ]
+  },
+  "Rahu-7": {
+   "id": "R7",
+   "grah": "Rahu",
+   "ghar": 7,
+   "part": 7,
+   "myth": "Rahu saatve matlab shaadi me dhoka ya anjaan se shaadi pakki",
+   "A": [
+    {
+     "id": "R7-A1",
+     "claim": "Rahu in house 7 always means Ketu in house 1 (the nodes are exactly 180 degrees apart).",
+     "say": "Rahu 7 me, toh Ketu hamesha lagna me",
+     "basis": "Astronomy: lunar nodes are always opposite"
+    },
+    {
+     "id": "R7-A2",
+     "claim": "From house 7, Rahu's graha drishti falls on house(s) 1.",
+     "say": "Rahu ki nazar (drishti) seedhi lagna par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "R7-A3",
+     "claim": "The 7th house covers marriage and also business partnerships and public dealings.",
+     "say": "7th ghar: shaadi ke saath business partnership bhi",
+     "basis": "BPHS house significations"
+    },
+    {
+     "id": "R7-A4",
+     "claim": "Rahu's Vimshottari mahadasha lasts 18 years; a placement's results are felt most in its dasha/antardasha.",
+     "say": "Rahu mahadasha 18 saal ki hoti hai",
+     "basis": "Vimshottari dasha (BPHS)"
+    }
+   ],
+   "B": [
+    {
+     "id": "R7-B1",
+     "claim": "Some schools also give Rahu 5th/9th aspects; from house 7 these would fall on 3, 11.",
+     "say": "Kuch pandit Rahu ki nazar 3, 11 par bhi maante"
+    },
+    {
+     "id": "R7-B2",
+     "claim": "Rahu in 7th is popularly linked to an unconventional partner or background.",
+     "say": "Hatke ya alag background ka rishta maana jaata hai"
+    },
+    {
+     "id": "R7-B3",
+     "claim": "Rahu's exaltation sign is school-dependent (Vrishabh or Mithun).",
+     "say": "Rahu ucch: kuch pandit Vrishabh, kuch Mithun maante"
+    }
+   ],
+   "kyun_nuggets": [
+    "drishti/axis: Rahu 7 me toh Ketu lagna me — 1-7 ki jodi (R7-A1, R7-A2)",
+    "daily-life: 7th sirf shaadi nahi, business partner bhi (R7-A3)",
+    "dasha: 18 saal Rahu dasha (R7-A4)"
+   ],
+   "twists": [
+    "Rahu 7 = dhoka? Nahi — axis samjho",
+    "7th ka doosra matlab: business partnership",
+    "Ketu lagna me — saath wali kahani"
+   ],
+   "fear_prone": true,
+   "never_say": [
+    "Dhoka/cheating pakka",
+    "Shaadi tootegi",
+    "Sirf Rahu-7 se kaalsarp dosh",
+    "Videsh/inter-caste shaadi pakki"
+   ],
+   "free_remedies": [
+    "Rishte me saaf baat — kuch chhupaayein nahi",
+    "Bade faisle se pehle ek raat ruk ke sochein"
+   ]
+  },
+  "Chandra-4": {
+   "id": "C4",
+   "grah": "Chandra",
+   "ghar": 4,
+   "part": 8,
+   "myth": "Chandra 4th me hai toh insaan bas emotional aur kamzor hoga",
+   "A": [
+    {
+     "id": "C4-A1",
+     "claim": "Chandra gets dig-bala (directional strength) in the 4th house.",
+     "say": "Chandra ko 4th me digbal (disha-bal) milta",
+     "basis": "BPHS dig-bala"
+    },
+    {
+     "id": "C4-A2",
+     "claim": "Chandra is the matru-karaka (significator of mother); the 4th house also signifies mother, home and comfort.",
+     "say": "Chandra maa ka karak, 4th maa ka ghar",
+     "basis": "BPHS karakas and house significations"
+    },
+    {
+     "id": "C4-A3",
+     "claim": "From house 4, Chandra's graha drishti falls on house(s) 10.",
+     "say": "Chandra ki nazar (drishti) seedhi 10th ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "C4-A4",
+     "claim": "Chandra in house 4: own sign for Mesh lagna, exalted for Kumbh lagna, debilitated for Singh lagna.",
+     "say": "Lagna: Mesh swagrahi, Kumbh ucch, Singh neech",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "C4-A5",
+     "claim": "Chandra's strength also depends on paksha (waxing/waning) — paksha bala.",
+     "say": "Chandra ki taakat paksha (shukla/krishna) se bhi",
+     "basis": "BPHS shadbala (paksha bala)"
+    }
+   ],
+   "B": [
+    {
+     "id": "C4-B1",
+     "claim": "Chandra in 4th is popularly linked to deep attachment to home and mother.",
+     "say": "Ghar aur maa se gehra lagaav maana jaata hai"
+    },
+    {
+     "id": "C4-B2",
+     "claim": "It is often said to support domestic comfort and peace of mind.",
+     "say": "Ghar ka sukh aur mann ki shaanti maana jaata hai"
+    }
+   ],
+   "kyun_nuggets": [
+    "yoga/digbal: Chandra ki sabse pasandida disha 4th ghar (C4-A1)",
+    "lagna-flip: Kumbh lagna me ucch, Mesh me swagrahi, Singh me neech (C4-A4)",
+    "daily-life: shukla vs krishna paksha ka janam, Chandra ki taakat badal deta (C4-A5)"
+   ],
+   "twists": [
+    "Emotional = kamzor? Nahi, yahan Chandra sabse strong",
+    "Maa ka karak, maa ke ghar me",
+    "Paksha ka twist: same ghar, alag taakat"
+   ],
+   "fear_prone": false,
+   "never_say": [
+    "Maa ki sehat ya umar",
+    "Depression / mental illness",
+    "Ghar bikega"
+   ],
+   "free_remedies": [
+    "Roz maa ya ghar ke bade ke saath 10 minute baat",
+    "Raat ko phone door rakh ke neend poori karein"
+   ]
+  },
+  "Mangal-1": {
+   "id": "M1",
+   "grah": "Mangal",
+   "ghar": 1,
+   "part": 9,
+   "myth": "Lagna me Mangal matlab gussail aur pakka Manglik, shaadi mushkil",
+   "A": [
+    {
+     "id": "M1-A1",
+     "claim": "Mangal in house 1 from lagna is one of the traditional Manglik (Kuja dosha) positions (houses 1, 4, 7, 8, 12 are the widely cited list; some traditions also add 2).",
+     "say": "Lagna me Mangal traditional Manglik position me aata",
+     "basis": "Kuja dosha tradition (marriage-matching practice)"
+    },
+    {
+     "id": "M1-A2",
+     "claim": "From house 1, Mangal's graha drishti falls on house(s) 4, 7, 8.",
+     "say": "Mangal ki nazar 4, 7, 8 ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "M1-A3",
+     "claim": "Mangal in house 1 (a kendra) is in own/exalted sign for Mesh, Vrishchik, Makar lagna, forming Ruchaka Mahapurusha yoga (subject to the full chart).",
+     "say": "Mesh, Vrishchik, Makar lagna me Ruchaka yoga",
+     "basis": "BPHS Pancha Mahapurusha yoga + computed table (astro_tables.json)"
+    },
+    {
+     "id": "M1-A4",
+     "claim": "For Kark lagna Mangal is yogakaraka (lord of 5th and 10th) but is debilitated in the lagna.",
+     "say": "Kark lagna me yogakaraka Mangal neech hota",
+     "basis": "BPHS yogakaraka rule + computed table (astro_tables.json)"
+    },
+    {
+     "id": "M1-A5",
+     "claim": "Mangal signifies courage, energy and initiative.",
+     "say": "Mangal ka karak: himmat, energy, pehal",
+     "basis": "BPHS karakatva"
+    }
+   ],
+   "B": [
+    {
+     "id": "M1-B1",
+     "claim": "Some schools cancel Kuja dosha when Mangal is in own sign in lagna (Mesh/Vrishchik).",
+     "say": "Kuch pandit Mesh, Vrishchik lagna me dosha cancel maante"
+    },
+    {
+     "id": "M1-B2",
+     "claim": "Some traditions also check Kuja dosha from Chandra and Shukra, not only lagna.",
+     "say": "Kuch pandit Chandra, Shukra se bhi dekhte hain"
+    }
+   ],
+   "kyun_nuggets": [
+    "lagna-flip: Mesh, Vrishchik, Makar lagna me yahi Mangal Ruchaka yoga (M1-A3)",
+    "drishti: lagna se 7th pe seedhi nazar — isliye milan me dekha jaata (M1-A2)",
+    "daily-life: Mangal = himmat aur pehal, sirf gussa nahi (M1-A5)"
+   ],
+   "twists": [
+    "Gussa ya leadership? Mangal ka asli roop",
+    "Ruchaka yoga wale 3 lagna",
+    "Kark lagna ka twist: yogakaraka par neech"
+   ],
+   "fear_prone": true,
+   "never_say": [
+    "Jeevansathi ko khatra",
+    "Accident/chot hogi",
+    "Shaadi nahi hogi",
+    "Gussa = hinsak insaan"
+   ],
+   "free_remedies": [
+    "Roz daud ya exercise — energy sahi jagah lagaayein",
+    "Bahas me awaaz neeche, baat seedhi"
+   ]
+  },
+  "Ketu-12": {
+   "id": "K12",
+   "grah": "Ketu",
+   "ghar": 12,
+   "part": 10,
+   "myth": "Ketu 12th me matlab sab kuch chhoot jaayega, parivaar se door",
+   "A": [
+    {
+     "id": "K12-A1",
+     "claim": "Ketu in house 12 always means Rahu in house 6 (the nodes are exactly 180 degrees apart).",
+     "say": "Ketu 12 me, toh Rahu hamesha 6 me",
+     "basis": "Astronomy: lunar nodes are always opposite"
+    },
+    {
+     "id": "K12-A2",
+     "claim": "From house 12, Ketu's graha drishti falls on house(s) 6.",
+     "say": "Ketu ki nazar (drishti) seedhi 6th ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "K12-A3",
+     "claim": "The 12th house signifies expenses, foreign lands, sleep and moksha.",
+     "say": "12th ghar: kharcha, videsh, neend aur moksha",
+     "basis": "BPHS house significations"
+    },
+    {
+     "id": "K12-A4",
+     "claim": "Ketu is traditionally called moksha-karaka, and the 12th is the moksha bhava.",
+     "say": "Ketu moksha-karak (mukti ka sanket), 12th moksha-ghar",
+     "basis": "Standard karakatva (widely accepted)"
+    },
+    {
+     "id": "K12-A5",
+     "claim": "The paired Rahu sits in the 6th, an upachaya house where malefics are classically said to do well.",
+     "say": "Saath wala Rahu-6 upachaya (badhne wala) ghar me",
+     "basis": "Standard upachaya rule"
+    }
+   ],
+   "B": [
+    {
+     "id": "K12-B1",
+     "claim": "Some schools also give Ketu 5th/9th aspects; from house 12 these would fall on 4, 8.",
+     "say": "Kuch pandit Ketu ki nazar 4, 8 par bhi maante"
+    },
+    {
+     "id": "K12-B2",
+     "claim": "Ketu in 12th is popularly linked to an inclination towards meditation and spirituality.",
+     "say": "Dhyan, adhyatma ki taraf jhukaav maana jaata hai"
+    }
+   ],
+   "kyun_nuggets": [
+    "yoga: moksha-karak Ketu, moksha ke ghar me (K12-A4)",
+    "drishti/axis: Ketu 12 ki jodi Rahu 6 — upachaya me (K12-A1, K12-A5)",
+    "daily-life: 12th = neend aur kharcha — roz ki zindagi se jodo (K12-A3)"
+   ],
+   "twists": [
+    "'Sab chhoot jaayega' vs 'mann halka'",
+    "Rahu-6 wali chhupi taakat",
+    "12th ghar = neend bhi"
+   ],
+   "fear_prone": true,
+   "never_say": [
+    "Parivaar chhoot jaayega / sanyasi banega",
+    "Jail ya hospital",
+    "Paisa doob jaayega"
+   ],
+   "free_remedies": [
+    "Sone se pehle 5 minute shaant baith ke gehri saans",
+    "Kharche ki diary — har hafte ek baar dekhein"
+   ]
+  },
+  "Surya-10": {
+   "id": "SU10",
+   "grah": "Surya",
+   "ghar": 10,
+   "part": 11,
+   "myth": "Surya 10th me matlab boss se hamesha jhagda, ego hi ego",
+   "A": [
+    {
+     "id": "SU10-A1",
+     "claim": "Surya gets dig-bala (directional strength) in the 10th house.",
+     "say": "Surya ko 10th me digbal (disha-bal) milta",
+     "basis": "BPHS dig-bala"
+    },
+    {
+     "id": "SU10-A2",
+     "claim": "From house 10, Surya's graha drishti falls on house(s) 4.",
+     "say": "Surya ki nazar (drishti) seedhi 4th ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "SU10-A3",
+     "claim": "Surya in house 10: own sign for Vrishchik lagna, exalted for Kark lagna, debilitated for Makar lagna.",
+     "say": "Lagna: Vrishchik swagrahi, Kark ucch, Makar neech",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "SU10-A5",
+     "claim": "The 10th is both a kendra and an upachaya house, and Surya is one of its karakas.",
+     "say": "Surya 10th ghar ka karak bhi hai",
+     "basis": "BPHS karaka list"
+    }
+   ],
+   "B": [
+    {
+     "id": "SU10-B1",
+     "claim": "Surya in 10th is popularly linked with authority, government or leadership roles.",
+     "say": "Sarkari ya leadership kaam ka jhukaav maana jaata hai"
+    },
+    {
+     "id": "SU10-B2",
+     "claim": "Some North-Indian practitioners also read father from the 10th (BPHS uses the 9th).",
+     "say": "Kuch pandit 10th se pita bhi dekhte hain"
+    },
+    {
+     "id": "SU10-B3",
+     "claim": "Surya in the 10th sometimes goes with birth around midday, but with sign-based houses the time can be several hours off, so it is not a reliable rule.",
+     "say": "Janam aksar dopahar ke aas-paas, par pakka nahi",
+     "basis": null
+    }
+   ],
+   "kyun_nuggets": [
+    "daily-life: Surya 10 me kuch log dopahar ka sanket maante, par sign-based ghar me pakka nahi (SU10-B3)",
+    "yoga/digbal: Surya ki sabse strong disha 10th (SU10-A1)",
+    "lagna-flip: Kark lagna me ucch vs Makar lagna me neech (SU10-A3)"
+   ],
+   "twists": [
+    "Dopahar ka sanket? Aksar, par pakka nahi",
+    "Ego nahi, digbal",
+    "Ek Surya, teen lagna: swagrahi, ucch, neech"
+   ],
+   "fear_prone": false,
+   "never_say": [
+    "Pita se jhagda / pita ki sehat",
+    "Sarkari naukri ki guarantee",
+    "Exact janam samay batana",
+    "Janam dopahar ka hi hai (pakka)"
+   ],
+   "free_remedies": [
+    "Subah suraj nikalne ke saath uthna",
+    "Team ko credit dena, ego chhodna"
+   ]
+  },
+  "Shukra-2": {
+   "id": "SK2",
+   "grah": "Shukra",
+   "ghar": 2,
+   "part": 12,
+   "myth": "Shukra 2nd me matlab paisa udaane wala, sirf shauk",
+   "A": [
+    {
+     "id": "SK2-A1",
+     "claim": "The 2nd house signifies wealth, speech, family and food.",
+     "say": "2nd ghar: dhan, vaani, parivaar, khaana",
+     "basis": "BPHS house significations"
+    },
+    {
+     "id": "SK2-A2",
+     "claim": "From house 2, Shukra's graha drishti falls on house(s) 8.",
+     "say": "Shukra ki nazar (drishti) seedhi 8th ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "SK2-A3",
+     "claim": "Shukra in house 2: own sign for Mesh, Kanya lagna, exalted for Kumbh lagna.",
+     "say": "Mesh, Kanya me swagrahi, Kumbh me ucch",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "SK2-A4",
+     "claim": "Shukra in house 2 is debilitated only for Singh lagna.",
+     "say": "Singh lagna me yahi Shukra neech hota",
+     "basis": "computed table (astro_tables.json)"
+    }
+   ],
+   "B": [
+    {
+     "id": "SK2-B1",
+     "claim": "Shukra in 2nd is popularly linked to good taste in food and clothes.",
+     "say": "Khaane, kapdon ka achha taste maana jaata hai"
+    },
+    {
+     "id": "SK2-B2",
+     "claim": "Some link it to comforts through family.",
+     "say": "Kuch pandit kutumb se sukh-suvidha jodte hain"
+    },
+    {
+     "id": "SK2-B3",
+     "claim": "Some classical texts associate Shukra in the 2nd with pleasant, sweet speech (varies by text).",
+     "say": "Kuch granthon me Shukra-2 meethi vaani se jodte",
+     "basis": null
+    }
+   ],
+   "kyun_nuggets": [
+    "daily-life: 2nd ghar = vaani, Shukra se meethi vaani ka sanket (kuch granthon me) (SK2-A1, SK2-B3)",
+    "lagna-flip: Kumbh lagna me ucch vs Singh lagna me neech (SK2-A3, SK2-A4)",
+    "drishti: 2nd se Shukra 8th ghar ko dekhta hai (SK2-A2)"
+   ],
+   "twists": [
+    "Shauk ya sweet speech?",
+    "Kumbh lagna wale ka chhupa ucch Shukra",
+    "Khaana + vaani = 2nd ghar"
+   ],
+   "fear_prone": false,
+   "never_say": [
+    "Paisa barbaad hoga",
+    "Affair",
+    "Maraka / umar ki baat"
+   ],
+   "free_remedies": [
+    "Bolne se pehle ek pal ruk ke meetha bolein",
+    "Mahine ki bachat pehle, shauk baad me"
+   ]
+  },
+  "Shani-10": {
+   "id": "S10",
+   "grah": "Shani",
+   "ghar": 10,
+   "part": 13,
+   "myth": "Shani 10th me matlab career me sirf rukawat",
+   "A": [
+    {
+     "id": "S10-A1",
+     "claim": "The 10th is an upachaya house; Shani in upachaya is classically considered favourable.",
+     "say": "Upachaya ghar me Shani ko behtar maana gaya",
+     "basis": "Phaladeepika / standard upachaya rule"
+    },
+    {
+     "id": "S10-A2",
+     "claim": "From house 10, Shani's graha drishti falls on house(s) 4, 7, 12.",
+     "say": "Shani ki nazar 4, 7, 12 ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "S10-A3",
+     "claim": "Shani in house 10 (a kendra) is in own/exalted sign for Mesh, Vrishabh, Makar lagna, forming Sasa Mahapurusha yoga (subject to the full chart).",
+     "say": "Mesh, Vrishabh, Makar lagna me Sasa yoga",
+     "basis": "BPHS Pancha Mahapurusha yoga + computed table (astro_tables.json)"
+    },
+    {
+     "id": "S10-A4",
+     "claim": "For Vrishabh lagna Shani is yogakaraka (lord of 9th and 10th) and sits in its own sign here.",
+     "say": "Vrishabh lagna: yogakaraka Shani apni rashi me",
+     "basis": "BPHS yogakaraka rule + computed table (astro_tables.json)"
+    },
+    {
+     "id": "S10-A5",
+     "claim": "Shani in house 10 is debilitated only for Kark lagna.",
+     "say": "Neech sirf Kark lagna me hota hai",
+     "basis": "computed table (astro_tables.json)"
+    }
+   ],
+   "B": [
+    {
+     "id": "S10-B1",
+     "claim": "Shani in 10th is commonly said to give a slow but lasting rise.",
+     "say": "Kuch pandit kehte hain tarakki dheere par pakki"
+    },
+    {
+     "id": "S10-B2",
+     "claim": "Some link it to service, law or industry-type work.",
+     "say": "Kuch pandit seva, kanoon, industry ke kaam jodte"
+    }
+   ],
+   "kyun_nuggets": [
+    "yoga: Mesh, Vrishabh, Makar lagna me Sasa yoga (S10-A3, S10-A4)",
+    "daily-life: upachaya ghar time ke saath badhta hai (S10-A1)",
+    "drishti: 10th se Shani 4th, 7th, 12th ko dekhta hai (S10-A2)"
+   ],
+   "twists": [
+    "Rukawat nahi, 'tikau' tarakki",
+    "Vrishabh lagna ka yogakaraka Shani",
+    "Sasa yoga wale 3 lagna"
+   ],
+   "fear_prone": false,
+   "never_say": [
+    "Career barbaad",
+    "Naukri chhootegi",
+    "Kark lagna wale fail honge"
+   ],
+   "free_remedies": [
+    "Kaam me shortcut nahi — deadline pe kaam poora",
+    "Juniors aur staff ka samman"
+   ]
+  },
+  "Guru-5": {
+   "id": "G5",
+   "grah": "Guru",
+   "ghar": 5,
+   "part": 14,
+   "myth": "5th me Guru matlab bachchon ki dikkat, 'karak bhaav ko bigaadta hai'",
+   "A": [
+    {
+     "id": "G5-A1",
+     "claim": "From house 5, Guru's graha drishti falls on house(s) 1, 9, 11.",
+     "say": "Guru ki nazar 1, 9, 11 ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "G5-A2",
+     "claim": "The 5th is a trikona; a natural benefic in a trikona is classically auspicious.",
+     "say": "5th trikona (shubh kon) ghar hai",
+     "basis": "BPHS (trikona houses)"
+    },
+    {
+     "id": "G5-A3",
+     "claim": "Guru in house 5: own sign for Singh, Vrishchik lagna, exalted for Meen lagna.",
+     "say": "Singh, Vrishchik me swagrahi, Meen me ucch",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "G5-A4",
+     "claim": "Guru in house 5 is debilitated only for Kanya lagna.",
+     "say": "Kanya lagna me yahi Guru neech hota",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "G5-A5",
+     "claim": "Guru is the karaka of the 5th house (children, wisdom).",
+     "say": "Guru 5th ghar ka karak (sanket-grah)",
+     "basis": "BPHS karaka list"
+    }
+   ],
+   "B": [
+    {
+     "id": "G5-B1",
+     "claim": "'Karako bhava nashaya' is applied by some schools to Guru in 5th; many relax it, especially in own/exalted sign.",
+     "say": "Kuch pandit 'karako bhava nashaya' lagaate, sab nahi"
+    },
+    {
+     "id": "G5-B2",
+     "claim": "Guru in 5th is popularly linked to good intellect and advisory skill.",
+     "say": "Achhi buddhi aur salah dene ki kala maana jaata hai"
+    }
+   ],
+   "kyun_nuggets": [
+    "drishti: 5th se Guru lagna aur 9th dekhta hai — teeno trikona jud jaate (G5-A1, G5-A2)",
+    "yoga/paradox: karak apne ghar me — sab pandit ek raay nahi (G5-A5 + G5-B1)",
+    "lagna-flip: Meen lagna me ucch vs Kanya lagna me neech (G5-A3, G5-A4)"
+   ],
+   "twists": [
+    "'Karak bhaav naash' — sach ya adha sach?",
+    "Trikona ka Guru: buddhi ka ghar",
+    "Guru ki 3 nazar, 3 achhe ghar"
+   ],
+   "fear_prone": true,
+   "never_say": [
+    "Bachche nahi honge / der se honge",
+    "Beta ya beti hoga",
+    "Santaan ko khatra"
+   ],
+   "free_remedies": [
+    "Kisi bachche ko padhaayein ya guide karein",
+    "Roz 15 minute kuch naya padhein"
+   ]
+  },
+  "Mangal-4": {
+   "id": "M4",
+   "grah": "Mangal",
+   "ghar": 4,
+   "part": 15,
+   "myth": "4th ghar ka Mangal matlab ghar me kalesh aur pakka Manglik",
+   "A": [
+    {
+     "id": "M4-A1",
+     "claim": "Mangal in house 4 from lagna is one of the traditional Manglik (Kuja dosha) positions (houses 1, 4, 7, 8, 12 are the widely cited list; some traditions also add 2).",
+     "say": "4th Mangal traditional Manglik position me aata",
+     "basis": "Kuja dosha tradition (marriage-matching practice)"
+    },
+    {
+     "id": "M4-A2",
+     "claim": "From house 4, Mangal's graha drishti falls on house(s) 7, 10, 11.",
+     "say": "Mangal ki nazar 7, 10, 11 ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "M4-A3",
+     "claim": "Mangal in house 4 (a kendra) is in own/exalted sign for Singh, Makar, Tula lagna, forming Ruchaka Mahapurusha yoga (subject to the full chart). Debilitated here only for Mesh lagna.",
+     "say": "Singh, Makar, Tula lagna me Ruchaka yoga",
+     "basis": "BPHS Pancha Mahapurusha yoga + computed table (astro_tables.json)"
+    },
+    {
+     "id": "M4-A4",
+     "claim": "For Singh lagna Mangal is yogakaraka (lord of 4th and 9th) and sits in its own sign here.",
+     "say": "Singh lagna: yogakaraka Mangal apni rashi me",
+     "basis": "BPHS yogakaraka rule + computed table (astro_tables.json)"
+    },
+    {
+     "id": "M4-A5",
+     "claim": "Mangal is a karaka of land and property (bhumi-karaka).",
+     "say": "Mangal bhumi-karak (zameen ka sanket) hai",
+     "basis": "Standard karakatva"
+    }
+   ],
+   "B": [
+    {
+     "id": "M4-B1",
+     "claim": "Some schools cancel Kuja dosha when Mangal is in own sign here (Singh/Makar lagna).",
+     "say": "Kuch pandit Singh, Makar lagna me dosha cancel maante"
+    },
+    {
+     "id": "M4-B2",
+     "claim": "Mangal gets dig-bala in the 10th, so some read it as directionally weak in the 4th; interpretations vary.",
+     "say": "Kuch pandit 4th me Mangal ka digbal kam maante"
+    }
+   ],
+   "kyun_nuggets": [
+    "lagna-flip: Singh lagna me yogakaraka + Ruchaka yoga (M4-A3, M4-A4)",
+    "daily-life: bhumi-karak Mangal — ghar-zameen ki mehnat (M4-A5)",
+    "drishti: 4th se Mangal 10th (career) aur 11th (labh) ko dekhta hai (M4-A2)"
+   ],
+   "twists": [
+    "Kalesh ya property ki energy?",
+    "Singh lagna ka double fayda",
+    "Manglik ka darr vs Ruchaka yoga"
+   ],
+   "fear_prone": true,
+   "never_say": [
+    "Maa ki sehat",
+    "Ghar me aag / durghatna",
+    "Jeevansathi ko khatra"
+   ],
+   "free_remedies": [
+    "Ghar me bahas ke waqt pehle poori baat sunein",
+    "Ghar ki marammat/safai khud karein — energy wahan lagaayein"
+   ]
+  },
+  "Chandra-7": {
+   "id": "C7",
+   "grah": "Chandra",
+   "ghar": 7,
+   "part": 16,
+   "myth": "Chandra saatve matlab chanchal mann, rishte tikte nahi",
+   "A": [
+    {
+     "id": "C7-A1",
+     "claim": "From house 7, Chandra's graha drishti falls on house(s) 1.",
+     "say": "Chandra ki nazar (drishti) seedhi lagna par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "C7-A2",
+     "claim": "Chandra in house 7: own sign for Makar lagna, exalted for Vrishchik lagna, debilitated for Vrishabh lagna.",
+     "say": "Lagna: Makar swagrahi, Vrishchik ucch, Vrishabh neech",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "C7-A3",
+     "claim": "With Chandra in the 7th, lagna and Chandra-lagna fall exactly opposite each other.",
+     "say": "Lagna aur Chandra-lagna aamne-saamne ho jaate",
+     "basis": "Standard Chandra-lagna method"
+    },
+    {
+     "id": "C7-A4",
+     "claim": "Chandra's strength also depends on paksha (waxing/waning) — paksha bala.",
+     "say": "Chandra ki taakat paksha (shukla/krishna) se bhi",
+     "basis": "BPHS shadbala (paksha bala)"
+    },
+    {
+     "id": "C7-A5",
+     "claim": "Chandra's Vimshottari mahadasha lasts 10 years; a placement's results are felt most in its dasha/antardasha.",
+     "say": "Chandra mahadasha 10 saal ki hoti hai",
+     "basis": "Vimshottari dasha (BPHS)"
+    }
+   ],
+   "B": [
+    {
+     "id": "C7-B1",
+     "claim": "Chandra in 7th is popularly linked to a strong emotional need for companionship.",
+     "say": "Saathi se emotional judaav zyada maana jaata hai"
+    },
+    {
+     "id": "C7-B2",
+     "claim": "Some read it as a caring, sensitive partner.",
+     "say": "Kuch pandit samvedansheel jeevansathi ka sanket maante"
+    }
+   ],
+   "kyun_nuggets": [
+    "lagna-flip: Vrishchik lagna me ucch, Makar me swagrahi, Vrishabh me neech (C7-A2)",
+    "drishti: Chandra 7 se seedha aapko (lagna) dekhta hai (C7-A1, C7-A3)",
+    "daily-life: paksha ka janam taakat badal deta (C7-A4)"
+   ],
+   "twists": [
+    "Chanchal ya caring?",
+    "Lagna vs Chandra-lagna: do nazariye aamne-saamne",
+    "Ek Chandra, teen lagna"
+   ],
+   "fear_prone": false,
+   "never_say": [
+    "Rishte tootenge",
+    "Ek se zyada shaadi",
+    "Mann ki bimari"
+   ],
+   "free_remedies": [
+    "Partner se roz 10 minute bina phone baat",
+    "Bade emotional faisle subah shaant mann se"
+   ]
+  },
+  "Budh-10": {
+   "id": "B10",
+   "grah": "Budh",
+   "ghar": 10,
+   "part": 17,
+   "myth": "10th ka Budh matlab bas munim ya hisaab-kitaab ka kaam",
+   "A": [
+    {
+     "id": "B10-A1",
+     "claim": "From house 10, Budh's graha drishti falls on house(s) 4.",
+     "say": "Budh ki nazar (drishti) seedhi 4th ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "B10-A2",
+     "claim": "Budh in house 10 (a kendra) is in own/exalted sign for Kanya, Dhanu lagna, forming Bhadra Mahapurusha yoga (subject to the full chart).",
+     "say": "Kanya, Dhanu lagna me Bhadra yoga",
+     "basis": "BPHS Pancha Mahapurusha yoga + computed table (astro_tables.json)"
+    },
+    {
+     "id": "B10-A3",
+     "claim": "Budh in house 10 is debilitated only for Mithun lagna.",
+     "say": "Mithun lagna me yahi Budh neech hota",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "B10-A4",
+     "claim": "Budh is never more than ~28 degrees from Surya, so with Budh in 10th, Surya is in the 9th, 10th or 11th.",
+     "say": "Surya hamesha 9, 10 ya 11 me hoga",
+     "basis": "Astronomy (Mercury's maximum elongation ~28 degrees)"
+    },
+    {
+     "id": "B10-A5",
+     "claim": "Budh is listed among the karakas of the 10th house (with Surya, Guru, Shani).",
+     "say": "Budh bhi 10th ghar ka ek karak",
+     "basis": "BPHS karaka list"
+    }
+   ],
+   "B": [
+    {
+     "id": "B10-B1",
+     "claim": "Budh in 10th is popularly linked to business, writing and communication careers.",
+     "say": "Business, likhai, baat-cheet wale kaam ka yog maana jaata hai"
+    },
+    {
+     "id": "B10-B2",
+     "claim": "Budh-Aditya yoga (Budh with Surya) is so common that some astrologers discount it.",
+     "say": "Kuch pandit Budh-Aditya yoga ko bahut aam maante"
+    }
+   ],
+   "kyun_nuggets": [
+    "daily-life: Budh Surya ka padosi — Surya 9, 10 ya 11 me hi milega (B10-A4)",
+    "yoga: Kanya aur Dhanu lagna me Bhadra yoga (B10-A2)",
+    "drishti: 10th se Budh 4th (ghar-sukh) ko dekhta hai (B10-A1)"
+   ],
+   "twists": [
+    "Munim nahi, 'communicator'",
+    "Surya-Budh ki dosti ka astronomy fact",
+    "Bhadra yoga wale 2 lagna"
+   ],
+   "fear_prone": false,
+   "never_say": [
+    "Sirf ek hi career likha hai",
+    "Business success ki guarantee",
+    "Mithun lagna wale fail honge"
+   ],
+   "free_remedies": [
+    "Roz 10 minute hisaab ya diary likhein",
+    "Jo message/kaam kaha, usi din poora karein"
+   ]
+  },
+  "Shani-8": {
+   "id": "S8",
+   "grah": "Shani",
+   "ghar": 8,
+   "part": 18,
+   "myth": "Ashtam (8th) Shani matlab zindagi bhar musibat aur achanak nuksaan",
+   "A": [
+    {
+     "id": "S8-A1",
+     "claim": "From house 8, Shani's graha drishti falls on house(s) 2, 5, 10.",
+     "say": "Shani ki nazar 2, 5, 10 ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "S8-A2",
+     "claim": "Shani in house 8: own sign for Mithun, Kark lagna, exalted for Meen lagna, debilitated for Kanya lagna.",
+     "say": "Lagna: Mithun, Kark swagrahi, Meen ucch, Kanya neech",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "S8-A3",
+     "claim": "For Mithun lagna (lord of 8th, 9th) and Kark lagna (lord of 7th, 8th), Shani as 8th lord in the 8th forms Sarala yoga (a viparita yoga).",
+     "say": "Mithun, Kark lagna me Sarala yoga banta",
+     "basis": "Phaladeepika (Harsha/Sarala/Vimala yogas) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "S8-A4",
+     "claim": "The 8th house signifies research, hidden matters, transformation and inheritance.",
+     "say": "8th ghar: research, gupt vidya, badlaav",
+     "basis": "BPHS house significations"
+    },
+    {
+     "id": "S8-A5",
+     "claim": "Natal Shani in the 8th is not the same as Shani's 'dhaiya' (transit over 4th/8th from Chandra).",
+     "say": "Janam ka Shani-8 aur dhaiya alag cheezein",
+     "basis": "Standard gochar rule"
+    }
+   ],
+   "B": [
+    {
+     "id": "S8-B1",
+     "claim": "Shani in 8th is popularly linked to a deep, research-oriented mind.",
+     "say": "Gehri, research wali soch maana jaata hai"
+    },
+    {
+     "id": "S8-B2",
+     "claim": "Viparita yoga results vary; some describe success after struggle.",
+     "say": "Kuch pandit Sarala yoga ko sangharsh ke baad safalta maante"
+    },
+    {
+     "id": "S8-B3",
+     "claim": "Some astrologers also weigh the lord's other house (e.g. lagna, trikona or 7th lordship) before calling it a full viparita yoga; the strict Phaladeepika definition only needs the lord in 6/8/12.",
+     "say": "Kuch pandit lord ka doosra ghar bhi tolte hain",
+     "basis": null
+    }
+   ],
+   "kyun_nuggets": [
+    "yoga: Mithun, Kark lagna me Sarala yoga — ulta raj yoga (S8-A3)",
+    "drishti: 8th se Shani 10th (career) aur 5th ko dekhta hai (S8-A1)",
+    "daily-life: janam ka Shani aur dhaiya ka farak (S8-A5)"
+   ],
+   "twists": [
+    "'Ashtam' ka darr vs Sarala yoga",
+    "8th ghar = research aur gehrai",
+    "Dhaiya aur janam-Shani mix mat karo"
+   ],
+   "fear_prone": true,
+   "never_say": [
+    "Umar kam / maut",
+    "Accident ya surgery",
+    "Achanak nuksaan pakka",
+    "Sade sati se jodna"
+   ],
+   "free_remedies": [
+    "Bachat aur zaroori planning time pe karein",
+    "Har Saturday kisi zarooratmand ki chhoti seva"
+   ]
+  },
+  "Guru-1": {
+   "id": "G1",
+   "grah": "Guru",
+   "ghar": 1,
+   "part": 19,
+   "myth": "Lagna me Guru hai toh saari problem apne aap khatam",
+   "A": [
+    {
+     "id": "G1-A1",
+     "claim": "Guru gets dig-bala (directional strength) in the 1st house.",
+     "say": "Guru ko lagna me digbal (disha-bal) milta",
+     "basis": "BPHS dig-bala"
+    },
+    {
+     "id": "G1-A2",
+     "claim": "From house 1, Guru's graha drishti falls on house(s) 5, 7, 9.",
+     "say": "Guru ki nazar 5, 7, 9 ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "G1-A3",
+     "claim": "Guru in house 1 (a kendra) is in own/exalted sign for Dhanu, Meen, Kark lagna, forming Hamsa Mahapurusha yoga (subject to the full chart).",
+     "say": "Dhanu, Meen, Kark lagna me Hamsa yoga",
+     "basis": "BPHS Pancha Mahapurusha yoga + computed table (astro_tables.json)"
+    },
+    {
+     "id": "G1-A4",
+     "claim": "Guru in house 1 is debilitated only for Makar lagna.",
+     "say": "Makar lagna me yahi Guru neech hota",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "G1-A5",
+     "claim": "Guru's Vimshottari mahadasha lasts 16 years; a placement's results are felt most in its dasha/antardasha.",
+     "say": "Guru mahadasha 16 saal ki hoti hai",
+     "basis": "Vimshottari dasha (BPHS)"
+    }
+   ],
+   "B": [
+    {
+     "id": "G1-B1",
+     "claim": "Guru in lagna is popularly said to soften many doshas in the chart.",
+     "say": "Lagna ka Guru kai dosh halke karta, maana jaata hai"
+    },
+    {
+     "id": "G1-B2",
+     "claim": "It is linked to a dignified, advisory nature.",
+     "say": "Samajhdaar, salahkaar swabhaav maana jaata hai"
+    }
+   ],
+   "kyun_nuggets": [
+    "drishti: lagna se Guru 5, 7, 9 — teen ghar ek saath (G1-A2)",
+    "yoga: Dhanu, Meen, Kark lagna me Hamsa yoga (G1-A3)",
+    "lagna-flip: Kark me ucch vs Makar lagna me neech (G1-A3, G1-A4)"
+   ],
+   "twists": [
+    "Achha grah, par 'sab apne aap' nahi",
+    "Guru ki teen nazar ek saath",
+    "Digbal: Guru ki favourite jagah"
+   ],
+   "fear_prone": false,
+   "never_say": [
+    "Sab dosh khatam ki guarantee",
+    "Motapa / sehat",
+    "Kuch karne ki zarurat nahi"
+   ],
+   "free_remedies": [
+    "Roz kisi ko ek achhi salah ya madad",
+    "Bado aur gurujan ka samman"
+   ]
+  },
+  "Ketu-7": {
+   "id": "K7",
+   "grah": "Ketu",
+   "ghar": 7,
+   "part": 20,
+   "myth": "Ketu saatve matlab shaadi me doori ya talaak",
+   "A": [
+    {
+     "id": "K7-A1",
+     "claim": "Ketu in house 7 always means Rahu in house 1 (the nodes are exactly 180 degrees apart).",
+     "say": "Ketu 7 me, toh Rahu hamesha lagna me",
+     "basis": "Astronomy: lunar nodes are always opposite"
+    },
+    {
+     "id": "K7-A2",
+     "claim": "From house 7, Ketu's graha drishti falls on house(s) 1.",
+     "say": "Ketu ki nazar (drishti) seedhi lagna par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "K7-A3",
+     "claim": "The 7th house covers marriage and also business partnerships and public dealings.",
+     "say": "7th ghar: shaadi ke saath business partnership bhi",
+     "basis": "BPHS house significations"
+    },
+    {
+     "id": "K7-A4",
+     "claim": "Ketu's Vimshottari mahadasha lasts 7 years; a placement's results are felt most in its dasha/antardasha.",
+     "say": "Ketu mahadasha 7 saal ki hoti hai",
+     "basis": "Vimshottari dasha (BPHS)"
+    }
+   ],
+   "B": [
+    {
+     "id": "K7-B1",
+     "claim": "Some schools also give Ketu 5th/9th aspects; from house 7 these would fall on 3, 11.",
+     "say": "Kuch pandit Ketu ki nazar 3, 11 par bhi maante"
+    },
+    {
+     "id": "K7-B2",
+     "claim": "Ketu in 7th is popularly linked to a detached, calm approach in relationships.",
+     "say": "Rishton me shaant, alag soch maana jaata hai"
+    }
+   ],
+   "kyun_nuggets": [
+    "drishti/axis: Ketu 7 me toh Rahu lagna me (K7-A1, K7-A2)",
+    "daily-life: 7th = business partner bhi (K7-A3)",
+    "dasha: Ketu dasha sirf 7 saal (K7-A4)"
+   ],
+   "twists": [
+    "Doori ka darr? Nahi — axis samjho",
+    "Rahu lagna me, Ketu saathi ke ghar me",
+    "Doori nahi, 'shaant' rishta"
+   ],
+   "fear_prone": true,
+   "never_say": [
+    "Talaak / judaai pakki",
+    "Shaadi nahi hogi",
+    "Sirf isse kaalsarp dosh"
+   ],
+   "free_remedies": [
+    "Partner ko roz dhyaan se sunein, beech me na bolein",
+    "Partnership me sab baat likhit me rakhein"
+   ]
+  },
+  "Mangal-8": {
+   "id": "M8",
+   "grah": "Mangal",
+   "ghar": 8,
+   "part": 21,
+   "myth": "8th Mangal matlab sabse bada Manglik dosh",
+   "A": [
+    {
+     "id": "M8-A1",
+     "claim": "Mangal in house 8 from lagna is one of the traditional Manglik (Kuja dosha) positions (houses 1, 4, 7, 8, 12 are the widely cited list; some traditions also add 2).",
+     "say": "8th Mangal traditional Manglik position me aata",
+     "basis": "Kuja dosha tradition (marriage-matching practice)"
+    },
+    {
+     "id": "M8-A2",
+     "claim": "From house 8, Mangal's graha drishti falls on house(s) 2, 3, 11.",
+     "say": "Mangal ki nazar 2, 3, 11 ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "M8-A3",
+     "claim": "Mangal in house 8: own sign for Mesh, Kanya lagna, exalted for Mithun lagna.",
+     "say": "Mesh, Kanya me swagrahi, Mithun me ucch",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "M8-A4",
+     "claim": "For Kanya lagna Mangal is lord of 3rd and 8th; in the 8th in own sign it forms Sarala yoga.",
+     "say": "Kanya lagna me Sarala yoga ban jaata",
+     "basis": "Phaladeepika (Harsha/Sarala/Vimala yogas) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "M8-A5",
+     "claim": "Mangal's Vimshottari mahadasha lasts 7 years; a placement's results are felt most in its dasha/antardasha.",
+     "say": "Mangal mahadasha 7 saal ki hoti hai",
+     "basis": "Vimshottari dasha (BPHS)"
+    }
+   ],
+   "B": [
+    {
+     "id": "M8-B1",
+     "claim": "Some schools cancel Kuja dosha when Mangal is in own sign here (Mesh/Kanya lagna).",
+     "say": "Kuch pandit Mesh, Kanya lagna me dosha cancel maante"
+    },
+    {
+     "id": "M8-B2",
+     "claim": "Mangal in 8th is popularly linked to interest in research or technical work.",
+     "say": "Research, technical kaam me ruchi maana jaata hai"
+    },
+    {
+     "id": "M8-B3",
+     "claim": "Some astrologers also weigh the lord's other house (e.g. lagna, trikona or 7th lordship) before calling it a full viparita yoga; the strict Phaladeepika definition only needs the lord in 6/8/12.",
+     "say": "Kuch pandit lord ka doosra ghar bhi tolte hain",
+     "basis": null
+    }
+   ],
+   "kyun_nuggets": [
+    "lagna-flip: Kanya lagna me Sarala yoga, Mithun me ucch (M8-A3, M8-A4)",
+    "drishti: 8th se Mangal 3rd (himmat) aur 11th (labh) ko dekhta hai (M8-A2)",
+    "daily-life: milan me dono kundli dekhi jaati hain (M8-A1)"
+   ],
+   "twists": [
+    "'Sabse bada dosh' myth todo",
+    "Sarala yoga — ulta raj yoga",
+    "Nazar himmat aur labh pe"
+   ],
+   "fear_prone": true,
+   "never_say": [
+    "Accident / chot / surgery",
+    "Jeevansathi ki umar",
+    "Achanak maut",
+    "Sabse bura Manglik"
+   ],
+   "free_remedies": [
+    "Roz exercise karein, gussa paseene me nikaalein",
+    "Bolne se pehle ek saans — vaani narm rakhein"
+   ]
+  },
+  "Shukra-1": {
+   "id": "SK1",
+   "grah": "Shukra",
+   "ghar": 1,
+   "part": 22,
+   "myth": "Lagna me Shukra matlab sirf dikhawa aur aish",
+   "A": [
+    {
+     "id": "SK1-A1",
+     "claim": "From house 1, Shukra's graha drishti falls on house(s) 7.",
+     "say": "Shukra ki nazar (drishti) seedhi 7th ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "SK1-A2",
+     "claim": "Shukra in house 1 (a kendra) is in own/exalted sign for Vrishabh, Tula, Meen lagna, forming Malavya Mahapurusha yoga (subject to the full chart).",
+     "say": "Vrishabh, Tula, Meen lagna me Malavya yoga",
+     "basis": "BPHS Pancha Mahapurusha yoga + computed table (astro_tables.json)"
+    },
+    {
+     "id": "SK1-A3",
+     "claim": "Shukra in house 1 is debilitated only for Kanya lagna.",
+     "say": "Kanya lagna me yahi Shukra neech hota",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "SK1-A4",
+     "claim": "Shukra signifies art, beauty, comfort and relationships.",
+     "say": "Shukra ka karak: kala, sundarta, sukh",
+     "basis": "BPHS karakatva"
+    },
+    {
+     "id": "SK1-A5",
+     "claim": "Shukra's Vimshottari mahadasha is 20 years — the longest of all nine.",
+     "say": "Shukra dasha 20 saal, sabse lambi",
+     "basis": "Vimshottari dasha (BPHS)"
+    }
+   ],
+   "B": [
+    {
+     "id": "SK1-B1",
+     "claim": "Shukra in lagna is popularly linked to a charming personality.",
+     "say": "Aakarshak vyaktitva maana jaata hai"
+    },
+    {
+     "id": "SK1-B2",
+     "claim": "For Kanya lagna, some astrologers also check neecha-bhanga (cancellation of debility).",
+     "say": "Kuch pandit Kanya lagna me neechbhang bhi dekhte hain"
+    }
+   ],
+   "kyun_nuggets": [
+    "lagna-flip: Meen lagna me ucch Malavya vs Kanya lagna me neech (SK1-A2, SK1-A3)",
+    "drishti: lagna se Shukra seedha 7th (rishte) ko dekhta hai (SK1-A1)",
+    "daily-life: Shukra = kala aur sundarta, sirf aish nahi (SK1-A4)"
+   ],
+   "twists": [
+    "Dikhawa ya kala?",
+    "Malavya yoga wale 3 lagna",
+    "Shukra ki nazar rishton pe"
+   ],
+   "fear_prone": false,
+   "never_say": [
+    "Affair / charitra pe sawal",
+    "Ek se zyada shaadi",
+    "Fizool kharchi pakki"
+   ],
+   "free_remedies": [
+    "Roz 10 minute koi kala ya sangeet",
+    "Saaf-suthre rahein, ghar me ek paudha rakhein"
+   ]
+  },
+  "Shani-12": {
+   "id": "S12",
+   "grah": "Shani",
+   "ghar": 12,
+   "part": 23,
+   "myth": "12th Shani matlab paisa doobega aur zindagi bhar bhatakna",
+   "A": [
+    {
+     "id": "S12-A1",
+     "claim": "From house 12, Shani's graha drishti falls on house(s) 2, 6, 9.",
+     "say": "Shani ki nazar 2, 6, 9 ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "S12-A2",
+     "claim": "Shani in house 12: own sign for Kumbh, Meen lagna, exalted for Vrishchik lagna, debilitated for Vrishabh lagna.",
+     "say": "Lagna: Kumbh, Meen swagrahi, Vrishchik ucch, Vrishabh neech",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "S12-A3",
+     "claim": "For Kumbh lagna (12th lord Shani in Makar) and Meen lagna (12th lord Shani in Kumbh), Shani in the 12th forms Vimala yoga.",
+     "say": "Kumbh, Meen lagna me Vimala yoga banta",
+     "basis": "Phaladeepika (Harsha/Sarala/Vimala yogas) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "S12-A4",
+     "claim": "The 12th house signifies expenses, foreign lands, sleep and moksha.",
+     "say": "12th ghar: kharcha, videsh, neend aur moksha",
+     "basis": "BPHS house significations"
+    },
+    {
+     "id": "S12-A5",
+     "claim": "Shani's Vimshottari mahadasha lasts 19 years; a placement's results are felt most in its dasha/antardasha.",
+     "say": "Shani mahadasha 19 saal ki hoti hai",
+     "basis": "Vimshottari dasha (BPHS)"
+    }
+   ],
+   "B": [
+    {
+     "id": "S12-B1",
+     "claim": "Vimala yoga is popularly linked to a frugal, honest nature.",
+     "say": "Vimala yoga se kifayati, imaandaar swabhaav maana jaata hai"
+    },
+    {
+     "id": "S12-B2",
+     "claim": "Some link Shani in 12th to work in foreign lands or service sectors.",
+     "say": "Kuch pandit videsh ya seva-kshetra se kaam jodte"
+    },
+    {
+     "id": "S12-B3",
+     "claim": "Some astrologers also weigh the lord's other house (e.g. lagna, trikona or 7th lordship) before calling it a full viparita yoga; the strict Phaladeepika definition only needs the lord in 6/8/12.",
+     "say": "Kuch pandit lord ka doosra ghar bhi tolte hain",
+     "basis": null
+    }
+   ],
+   "kyun_nuggets": [
+    "yoga: Kumbh, Meen lagna me Vimala yoga (S12-A3)",
+    "lagna-flip: Vrishchik lagna me ucch vs Vrishabh lagna me neech (S12-A2)",
+    "drishti: 12th se Shani 9th (bhagya) aur 2nd ko dekhta hai (S12-A1)"
+   ],
+   "twists": [
+    "Kharcha ya kifayat?",
+    "Vimala yoga — chhupa raj yoga",
+    "12th ghar = videsh aur neend bhi"
+   ],
+   "fear_prone": true,
+   "never_say": [
+    "Paisa doobega",
+    "Jail / hospital",
+    "Akelapan pakka",
+    "Hamesha sade sati jaisa"
+   ],
+   "free_remedies": [
+    "Kharche ki list banayein, faltu kharche kaatein",
+    "Raat ko time pe sona"
+   ]
+  },
+  "Guru-9": {
+   "id": "G9",
+   "grah": "Guru",
+   "ghar": 9,
+   "part": 24,
+   "myth": "9th Guru matlab bhagya apne aap chamkega, mehnat ki zarurat nahi",
+   "A": [
+    {
+     "id": "G9-A1",
+     "claim": "From house 9, Guru's graha drishti falls on house(s) 1, 3, 5.",
+     "say": "Guru ki nazar 1, 3, 5 ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "G9-A2",
+     "claim": "The 9th is the trikona of dharma and bhagya, and Guru is its karaka.",
+     "say": "Guru 9th (bhagya) ghar ka karak hai",
+     "basis": "BPHS karaka list"
+    },
+    {
+     "id": "G9-A3",
+     "claim": "Guru in house 9: own sign for Mesh, Kark lagna, exalted for Vrishchik lagna.",
+     "say": "Mesh, Kark me swagrahi, Vrishchik me ucch",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "G9-A4",
+     "claim": "Guru in house 9 is debilitated only for Vrishabh lagna.",
+     "say": "Vrishabh lagna me yahi Guru neech hota",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "G9-A5",
+     "claim": "Guru's Vimshottari mahadasha lasts 16 years; a placement's results are felt most in its dasha/antardasha.",
+     "say": "Guru mahadasha 16 saal ki hoti hai",
+     "basis": "Vimshottari dasha (BPHS)"
+    }
+   ],
+   "B": [
+    {
+     "id": "G9-B1",
+     "claim": "'Karako bhava nashaya' (karaka in its own bhava may weaken it) is applied by some schools to Guru in 9th; many relax it in own/exalted sign.",
+     "say": "Kuch pandit 'karako bhava nashaya' niyam lagaate hain"
+    },
+    {
+     "id": "G9-B2",
+     "claim": "Guru in 9th is popularly linked to support from teachers, dharma and elders.",
+     "say": "Dharm, guru aur bado se sahyog maana jaata hai"
+    }
+   ],
+   "kyun_nuggets": [
+    "drishti: 9th se Guru lagna aur 5th — teeno trikona jud jaate (G9-A1)",
+    "lagna-flip: Vrishchik lagna me ucch vs Vrishabh lagna me neech (G9-A3, G9-A4)",
+    "dasha: 16 saal Guru dasha me bhagya ka ghar active (G9-A5)"
+   ],
+   "twists": [
+    "Bhagya + mehnat = asli formula",
+    "Teen trikona ka triangle",
+    "Karak apne ghar me — paradox"
+   ],
+   "fear_prone": false,
+   "never_say": [
+    "Bhagya ki guarantee",
+    "Pita ki sehat",
+    "Mehnat ki zarurat nahi"
+   ],
+   "free_remedies": [
+    "Hafte me ek baar kisi bujurg ki madad",
+    "Roz thoda dharm-granth ya achhi kitaab padhein"
+   ]
+  },
+  "Rahu-1": {
+   "id": "R1",
+   "grah": "Rahu",
+   "ghar": 1,
+   "part": 25,
+   "myth": "Lagna me Rahu matlab dimaag kharab, bhatka hua insaan",
+   "A": [
+    {
+     "id": "R1-A1",
+     "claim": "Rahu in house 1 always means Ketu in house 7 (the nodes are exactly 180 degrees apart).",
+     "say": "Rahu lagna me, toh Ketu hamesha 7 me",
+     "basis": "Astronomy: lunar nodes are always opposite"
+    },
+    {
+     "id": "R1-A2",
+     "claim": "From house 1, Rahu's graha drishti falls on house(s) 7.",
+     "say": "Rahu ki nazar (drishti) seedhi 7th ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "R1-A3",
+     "claim": "The lagna signifies self, body and personality.",
+     "say": "Lagna matlab khud ka swabhaav aur pehchaan",
+     "basis": "BPHS house significations"
+    },
+    {
+     "id": "R1-A4",
+     "claim": "Rahu's Vimshottari mahadasha lasts 18 years; a placement's results are felt most in its dasha/antardasha.",
+     "say": "Rahu mahadasha 18 saal ki hoti hai",
+     "basis": "Vimshottari dasha (BPHS)"
+    }
+   ],
+   "B": [
+    {
+     "id": "R1-B1",
+     "claim": "Some schools also give Rahu 5th/9th aspects; from house 1 these would fall on 5, 9.",
+     "say": "Kuch pandit Rahu ki nazar 5, 9 par bhi maante"
+    },
+    {
+     "id": "R1-B2",
+     "claim": "Rahu in lagna is popularly linked to big ambitions and unconventional thinking.",
+     "say": "Bade sapne, hatke soch maana jaata hai"
+    },
+    {
+     "id": "R1-B3",
+     "claim": "Rahu's exaltation sign is school-dependent (Vrishabh or Mithun).",
+     "say": "Rahu ucch: kuch pandit Vrishabh, kuch Mithun maante"
+    }
+   ],
+   "kyun_nuggets": [
+    "drishti/axis: Rahu lagna me toh Ketu 7th me (R1-A1, R1-A2)",
+    "daily-life: lagna = pehchaan, Rahu = 'kuch alag' (R1-A3)",
+    "dasha: 18 saal Rahu dasha (R1-A4)"
+   ],
+   "twists": [
+    "Bhatka hua ya hatke soch wala?",
+    "Ketu-7 wali saath ki kahani",
+    "Rahu ki ucch rashi pe pandit ekmat nahi"
+   ],
+   "fear_prone": true,
+   "never_say": [
+    "Pagalpan / mental illness",
+    "Nasha ya galat raah pakka",
+    "Sirf isse kaalsarp dosh"
+   ],
+   "free_remedies": [
+    "Roz 10 minute dhyan, mann ek jagah",
+    "Bade faisle likh ke, kisi bade se poochh ke"
+   ]
+  },
+  "Mangal-12": {
+   "id": "M12",
+   "grah": "Mangal",
+   "ghar": 12,
+   "part": 26,
+   "myth": "12th Mangal matlab Manglik, shaadi ka sukh nahi aur kharcha hi kharcha",
+   "A": [
+    {
+     "id": "M12-A1",
+     "claim": "Mangal in house 12 from lagna is one of the traditional Manglik (Kuja dosha) positions (houses 1, 4, 7, 8, 12 are the widely cited list; some traditions also add 2).",
+     "say": "12th Mangal traditional Manglik position me aata",
+     "basis": "Kuja dosha tradition (marriage-matching practice)"
+    },
+    {
+     "id": "M12-A2",
+     "claim": "From house 12, Mangal's graha drishti falls on house(s) 3, 6, 7.",
+     "say": "Mangal ki nazar 3, 6, 7 ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "M12-A3",
+     "claim": "Mangal in house 12: own sign for Vrishabh, Dhanu lagna, exalted for Kumbh lagna.",
+     "say": "Vrishabh, Dhanu me swagrahi, Kumbh me ucch",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "M12-A4",
+     "claim": "For Vrishabh lagna (lord of 7th, 12th) and Dhanu lagna (lord of 5th, 12th), Mangal as 12th lord in the 12th forms Vimala yoga.",
+     "say": "Vrishabh, Dhanu lagna me Vimala yoga banta",
+     "basis": "Phaladeepika (Harsha/Sarala/Vimala yogas) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "M12-A5",
+     "claim": "From the 12th, Mangal's 4th and 7th drishti fall on the 3rd and 6th — both upachaya houses.",
+     "say": "Nazar 3, 6 par, dono upachaya ghar",
+     "basis": "Standard drishti rule + computed table (astro_tables.json)"
+    }
+   ],
+   "B": [
+    {
+     "id": "M12-B1",
+     "claim": "Some schools cancel Kuja dosha when Mangal is in own sign here (Vrishabh/Dhanu lagna).",
+     "say": "Kuch pandit Vrishabh, Dhanu lagna me dosha cancel maante"
+    },
+    {
+     "id": "M12-B2",
+     "claim": "Mangal in 12th is popularly linked to energy spent on travel or distant work.",
+     "say": "Videsh ya door ke kaam me energy maana jaata hai"
+    },
+    {
+     "id": "M12-B3",
+     "claim": "Some astrologers also weigh the lord's other house (e.g. lagna, trikona or 7th lordship) before calling it a full viparita yoga; the strict Phaladeepika definition only needs the lord in 6/8/12.",
+     "say": "Kuch pandit lord ka doosra ghar bhi tolte hain",
+     "basis": null
+    }
+   ],
+   "kyun_nuggets": [
+    "yoga: Vrishabh, Dhanu lagna me Vimala yoga (M12-A4)",
+    "drishti: 12th se Mangal 6th (shatru, competition) ko dekhta hai (M12-A2, M12-A5)",
+    "lagna-flip: Kumbh lagna me ucch, Singh lagna me neech (M12-A3)"
+   ],
+   "twists": [
+    "Kharcha ya Vimala yoga?",
+    "Nazar competition ke ghar pe",
+    "Manglik list ka sabse kam samjha ghar"
+   ],
+   "fear_prone": true,
+   "never_say": [
+    "Shaadi ka sukh nahi",
+    "Hospital / chot",
+    "Paisa doobega"
+   ],
+   "free_remedies": [
+    "Mahine ka budget banayein, faltu kharcha band",
+    "Neend poori karein, raat ko bahas nahi"
+   ]
+  },
+  "Shani-4": {
+   "id": "S4",
+   "grah": "Shani",
+   "ghar": 4,
+   "part": 27,
+   "myth": "4th Shani matlab ghar me ashaanti aur maa ko kasht",
+   "A": [
+    {
+     "id": "S4-A1",
+     "claim": "From house 4, Shani's graha drishti falls on house(s) 1, 6, 10.",
+     "say": "Shani ki nazar 1, 6, 10 ghar par",
+     "basis": "Standard Parashari graha drishti (BPHS) + computed table (astro_tables.json)"
+    },
+    {
+     "id": "S4-A2",
+     "claim": "Shani in house 4 (a kendra) is in own/exalted sign for Tula, Vrishchik, Kark lagna, forming Sasa Mahapurusha yoga (subject to the full chart).",
+     "say": "Tula, Vrishchik, Kark lagna me Sasa yoga",
+     "basis": "BPHS Pancha Mahapurusha yoga + computed table (astro_tables.json)"
+    },
+    {
+     "id": "S4-A3",
+     "claim": "For Tula lagna Shani is yogakaraka (lord of 4th and 5th) and sits in its own sign here.",
+     "say": "Tula lagna: yogakaraka Shani apni rashi me",
+     "basis": "BPHS yogakaraka rule + computed table (astro_tables.json)"
+    },
+    {
+     "id": "S4-A4",
+     "claim": "Shani in house 4 is debilitated only for Makar lagna.",
+     "say": "Neech sirf Makar lagna me hota hai",
+     "basis": "computed table (astro_tables.json)"
+    },
+    {
+     "id": "S4-A5",
+     "claim": "Natal Shani in the 4th is not the same as Shani's 'dhaiya' (transit over 4th/8th from Chandra).",
+     "say": "Janam ka Shani-4 aur dhaiya alag cheezein",
+     "basis": "Standard gochar rule"
+    }
+   ],
+   "B": [
+    {
+     "id": "S4-B1",
+     "claim": "Shani in 4th is commonly said to build home and property slowly but lastingly.",
+     "say": "Kuch pandit kehte hain ghar-zameen dheere, par tikau"
+    },
+    {
+     "id": "S4-B2",
+     "claim": "It is popularly linked to a serious, responsible attitude towards family.",
+     "say": "Parivaar ke liye zimmedaar swabhaav maana jaata hai"
+    }
+   ],
+   "kyun_nuggets": [
+    "lagna-flip: Tula lagna me yogakaraka Shani apni rashi me + Sasa yoga (S4-A2, S4-A3)",
+    "drishti: 4th se Shani lagna aur 10th (career) ko dekhta hai (S4-A1)",
+    "daily-life: janam ka Shani-4 aur dhaiya alag baatein (S4-A5)"
+   ],
+   "twists": [
+    "Ashaanti ya tikau ghar?",
+    "Tula lagna ka yogakaraka Shani",
+    "Dhaiya vs janam-Shani ka confusion"
+   ],
+   "fear_prone": true,
+   "never_say": [
+    "Maa ki sehat ya umar",
+    "Ghar bikega",
+    "Hamesha dhaiya jaisa"
+   ],
+   "free_remedies": [
+    "Ghar ke bujurgon ke paas roz thoda baithna",
+    "Ghar ki safai aur tooti cheez theek karna"
+   ]
+  }
+ }
+}
