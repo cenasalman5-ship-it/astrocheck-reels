@@ -150,6 +150,16 @@ def lint_reel(D, typ_arg=None):
         big = sorted([tt[i] for i in range(5, len(G)) if float(((np.abs(G[i] - G[i - 5]) > 20) & mask).mean()) > .15] + [x for x in (M.get('scenes') or []) if x > 0])
         pts2 = [0] + big + [endt]; lh = [(a, b) for a, b in zip(pts2, pts2[1:]) if b - a > 3.5 and not inhold(a, b)]
         for a, b in lh[:4]: rep('FAIL', 'visual events', f'same layout held {a:.1f}–{b:.1f} s (>3.5 s)')
+        # shot rate (his rule 3, 1 Nov 2026): a new shot every 0.7–1.0 s
+        sc = sorted(set([tt[i] for i in range(3, len(G)) if float(((np.abs(G[i] - G[i - 3]) > 20) & mask).mean()) > .12] + [x for x in (M.get('scenes') or []) if x > 0]))
+        cuts = [0.0]
+        for x in sc:
+            if x - cuts[-1] >= .35: cuts.append(x)
+        pts3 = cuts + [endt]; sg = [(a, b) for a, b in zip(pts3, pts3[1:]) if b - a > 1.0 and not inhold(a, b)]
+        avg = endt / max(1, len(cuts))
+        bad = [(a, b) for a, b in sg if b - a > 1.2]
+        for a, b in bad[:6]: rep('FAIL', 'shot rate', f'same shot {a:.1f}–{b:.1f} s ({b - a:.1f} s > 1.2) — need a new shot every 0.7–1 s')
+        if not bad: rep('WARN' if (sg or avg > .9) else 'PASS', 'shot rate', f'{len(cuts)} shots, avg {avg:.2f} s' + (f', {len(sg)} shots >1.0 s' if sg else ''))
         # motion coverage (his rule: always moving) — share of 0.1 s steps with visible change, before the end card
         steps = [c for i, c in enumerate(ch) if tt[i + 1] < endt]
         cov = sum(c > .003 for c in steps) / max(1, len(steps))
