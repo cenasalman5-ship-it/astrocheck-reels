@@ -23,6 +23,8 @@ def lint_script(D):
     if n < lo or n > hi: rep('FAIL', 'spoken words', f'{n} words (allowed {lo}–{hi})')
     elif n < wlo or n > whi: rep('WARN', 'spoken words', f'{n} words (target {wlo}–{whi})')
     else: rep('PASS', 'spoken words', f'{n}')
+    if typ in ('rashi', 'placement'):
+        np_ = len(S.get('points') or []); rep('FAIL' if np_ < 3 else 'PASS', 'info points', f'{np_} points (need 3–4)')
     allt = ' '.join([v, S.get('cap_roman', ''), S.get('screen_text', ''), S.get('captions', '')])
     b = banned_hits(allt); rep('FAIL' if b else 'PASS', 'banned words', ', '.join(b) or 'none')
     head = ' '.join(re.findall(r'\S+', plain)[:16]).lower() + ' ' + ' '.join(S.get('cap_roman', '').split()[:16]).lower()
@@ -95,9 +97,12 @@ def lint_reel(D, typ_arg=None):
             if e['deco']: continue
             role, fs = e['role'], e['fs']; key = e['tx']
             lim = {'hook': (100, 999), 'caption': (84, 104), 'verdict': (80, 999), 'climax': (80, 999), 'cta': (80, 999)}.get(role, (44, 999))
-            if not lim[0] <= fs <= lim[1]: size_f.setdefault(key, (t, role or 'text', fs, lim))
+            cur = size_f.get(key)
+            if cur is None or fs > cur[2]: size_f[key] = (t, role or 'text', fs, lim)
             if e['b'] > 1632 or e['r'] > 961 or (e['y'] < 120 and e['b'] > 0):
                 zone_f.setdefault(key, (t, round(e['y']), round(e['b']), round(e['r'])))
+    # judge each text by its largest settled size (entrances/flips shrink it for a moment)
+    size_f = {k: v for k, v in size_f.items() if not v[3][0] <= v[2] <= v[3][1]}
     for k, (t, role, fs, lim) in list(size_f.items())[:8]: rep('FAIL', 'text size', f'"{k}" {role} {fs}px at {t}s (need {lim[0]}{"–"+str(lim[1]) if lim[1] < 999 else "+"})')
     if len(size_f) > 8: rep('FAIL', 'text size', f'…and {len(size_f) - 8} more')
     if not size_f: rep('PASS', 'text size', 'all text big enough')
@@ -145,6 +150,10 @@ def lint_reel(D, typ_arg=None):
         big = sorted([tt[i] for i in range(5, len(G)) if float(((np.abs(G[i] - G[i - 5]) > 20) & mask).mean()) > .15] + [x for x in (M.get('scenes') or []) if x > 0])
         pts2 = [0] + big + [endt]; lh = [(a, b) for a, b in zip(pts2, pts2[1:]) if b - a > 3.5 and not inhold(a, b)]
         for a, b in lh[:4]: rep('FAIL', 'visual events', f'same layout held {a:.1f}–{b:.1f} s (>3.5 s)')
+        # motion coverage (his rule: always moving) — share of 0.1 s steps with visible change, before the end card
+        steps = [c for i, c in enumerate(ch) if tt[i + 1] < endt]
+        cov = sum(c > .003 for c in steps) / max(1, len(steps))
+        rep('FAIL' if cov < .90 else 'WARN' if cov < .95 else 'PASS', 'motion coverage', f'{cov * 100:.0f}% of 0.1 s steps move (need ≥90%, target ≥95%)')
         # frozen
         run = 0; frz = []
         for i, c in enumerate(ch):

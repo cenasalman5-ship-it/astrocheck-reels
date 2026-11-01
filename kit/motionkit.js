@@ -123,7 +123,7 @@
     el.style.flexDirection = p > .5 ? 'column' : 'row'; el.style.lineHeight = p > .5 ? '1.08' : '1'; el.style.gap = p > .5 ? '0' : '14px';
     const sp = t > cta + .45 ? 1 + .03 * Math.sin((t - cta) * 5) : 1;
     el.style.transform = `scale(${sp})`;
-    el.style.opacity = t >= end - .02 ? Math.max(0, 1 - (t - end + .02) / .15) : 1;
+    el.style.opacity = t >= end - .15 ? Math.max(0, 1 - (t - end + .15) / .15) : 1;
     el.style.visibility = el.style.opacity < .02 ? 'hidden' : 'visible';
   }
   /* ---------------- end card ---------------- */
