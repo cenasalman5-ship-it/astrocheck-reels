@@ -26,7 +26,7 @@ canvas{position:absolute;left:0;top:0}
 .mk-label{font:60px/1.05 var(--f-body);color:var(--ink)}
 .mk-big{font:96px/1 var(--f-display);color:var(--ink)}
 /* badge row */
-#mk-badge{position:absolute;left:60px;top:150px;height:72px;padding:0 26px;border-radius:40px;display:flex;align-items:center;gap:12px;background:rgba(0,0,0,.42);border:2px solid rgba(255,255,255,.28);font:44px var(--f-body);color:#fff;white-space:nowrap;letter-spacing:.02em;z-index:40}
+#mk-badge{position:absolute;left:60px;top:150px;height:72px;padding:0 26px;border-radius:40px;display:flex;align-items:center;gap:12px;background:rgba(8,10,24,.78);border:2px solid rgba(255,255,255,.28);font:44px var(--f-body);color:#fff;white-space:nowrap;letter-spacing:.02em;z-index:40;box-shadow:0 6px 18px rgba(0,0,0,.35)}
 #mk-badge b{font-family:var(--f-display);color:var(--accent)}
 /* captions */
 #mk-cap{position:absolute;left:60px;width:900px;top:1150px;height:270px;display:flex;align-items:center;justify-content:center;text-align:center;z-index:45;pointer-events:none}
@@ -40,6 +40,7 @@ canvas{position:absolute;left:0;top:0}
 #mk-url .free{font-family:var(--f-display)}
 #mk-url .dot{opacity:.6}
 /* end card overlay */
+#mk-endbg{position:absolute;inset:0;z-index:49;opacity:0;visibility:hidden;background:rgba(0,0,0,.42);backdrop-filter:blur(16px) saturate(1.1);-webkit-backdrop-filter:blur(16px)}
 #mk-end{position:absolute;left:60px;width:900px;top:330px;z-index:50;opacity:0;border-radius:44px;background:var(--panel);color:var(--panel-ink);padding:46px 40px 40px;text-align:center;box-shadow:0 30px 60px rgba(0,0,0,.45)}
 #mk-end img{width:150px;height:150px;border-radius:36px}
 #mk-end .tool{margin-top:16px;font:56px/1.1 var(--f-display)}

@@ -133,6 +133,7 @@
     el.style.opacity = cl(prog(t, META.endAt, META.endAt + .15));
     el.style.transform = `translateY(${(1 - p) * 60}px) scale(${.94 + .06 * p})`;
     el.style.visibility = t < META.endAt ? 'hidden' : 'visible';
+    const bd = $('#mk-endbg'); if (bd) { bd.style.opacity = cl(prog(t, META.endAt - .05, META.endAt + .2)); bd.style.visibility = t < META.endAt - .05 ? 'hidden' : 'visible'; }
   }
   const ICON = {
     ig: '<svg viewBox="0 0 24 24"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4.3" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="17.6" cy="6.4" r="1.4" fill="currentColor"/></svg>',
@@ -162,6 +163,7 @@
       e.innerHTML = `<img src="kit/icon.png" alt=""><div class="tool">${o.end.tool || ''}</div><div class="url" data-role="url">astrocheck.app</div>
         <div class="hd" data-role="handles"><span>${ICON.ig}@astrocheckk</span><span>${ICON.yt}@AstrocheckApp</span><span>${ICON.fb}AstroCheck</span></div>
         ${o.end.next ? `<div class="next">${o.end.next}</div>` : ''}${o.end.disc ? `<div class="disc">${o.end.disc}</div>` : ''}`;
+      const bd = document.createElement('div'); bd.id = 'mk-endbg'; st.appendChild(bd);
       st.appendChild(e);
     }
     const v = document.createElement('div'); v.id = 'mk-vig'; st.appendChild(v);
