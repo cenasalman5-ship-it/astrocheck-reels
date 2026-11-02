@@ -97,5 +97,20 @@
     el = $(el); if (!el) return; const p = ((t % period) / period) * 260 - 80;
     el.style.backgroundImage = `linear-gradient(105deg, rgba(255,255,255,0) ${p - 18}%, ${color} ${p}%, rgba(255,255,255,0) ${p + 18}%)`;
   }
-  Object.assign(MK, { stage3d, t3, cam, depth, float, sphere, spin, board3d, flip, kinetic, particles, sheen });
+  /* SHOT CUTS (his rule 3: new shot every 0.7–1 s). shots = [[t0, {x,y,s,rx,ry,rz,ox,oy}], ...] sorted by t0.
+     Hard cut to each framing (with an optional 0.1 s snap), then a slow push-in/drift inside the shot so it never freezes.
+     ox/oy = transform-origin in px of the world element (what the camera looks at). Returns the active shot index. */
+  function shots(el, t, list, o = {}) {
+    el = $(el); if (!el || !list.length) return -1;
+    let k = 0; for (let i = 0; i < list.length; i++) if (t >= list[i][0]) k = i;
+    const [t0, a] = list[k], t1 = k + 1 < list.length ? list[k + 1][0] : t0 + 1;
+    const p = cl((t - t0) / Math.max(.2, t1 - t0)), snap = o.snap == null ? .1 : o.snap;
+    const prev = k > 0 ? list[k - 1][1] : a, sp = snap > 0 ? ease.out(cl((t - t0) / snap)) : 1;
+    const v = key => lerp(prev[key] == null ? (key === 's' ? 1 : 0) : prev[key], a[key] == null ? (key === 's' ? 1 : 0) : a[key], sp);
+    const push = 1 + (a.push == null ? .035 : a.push) * ease.io(p), dx = (a.dx || 0) * ease.io(p), dy = (a.dy || 0) * ease.io(p);
+    if (a.ox != null) el.style.transformOrigin = `${a.ox}px ${a.oy}px`;
+    t3(el, { x: v('x') + dx, y: v('y') + dy, rx: v('rx'), ry: v('ry'), rz: v('rz'), s: v('s') * push });
+    return k;
+  }
+  Object.assign(MK, { stage3d, t3, cam, depth, float, sphere, spin, board3d, flip, kinetic, particles, sheen, shots });
 })();
