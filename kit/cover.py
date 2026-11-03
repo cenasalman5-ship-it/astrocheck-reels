@@ -9,7 +9,8 @@ async def main():
     async with async_playwright() as p:
         b = await p.chromium.launch(args=['--allow-file-access-from-files']); pg = await b.new_page(viewport={'width': 1080, 'height': 1920})
         await pg.goto('file://' + D + '/reel.html'); await pg.evaluate('document.fonts.ready'); await pg.wait_for_timeout(600)
-        await pg.evaluate("document.querySelectorAll('#mk-cap,#mk-url,#mk-end,#mk-endbg,#mk-badge').forEach(e=>e.remove())")
+        await pg.evaluate(f'REEL.render({T})')
+        await pg.evaluate("document.querySelectorAll('#mk-cap,#mk-url,#mk-end,#mk-endbg,#mk-badge,.big,.mid,.sm,.stamp,.bub,.lbl,.win').forEach(e=>e.remove())")
         await pg.evaluate(f'REEL.render({T})'); bg = D + '/_cover_bg.png'; await pg.screenshot(path=bg)
         t = '<br>'.join(html.escape(x) for x in title.split('|'))
         page = f"""<style>@font-face{{font-family:IB;src:url(file://{K}/fonts/InterDisplay-Black.otf)}}@font-face{{font-family:IBo;src:url(file://{K}/fonts/InterDisplay-Bold.otf)}}@font-face{{font-family:KB;src:url(file://{K}/fonts/Kalam-700.woff2)}}
