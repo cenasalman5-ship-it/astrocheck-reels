@@ -20,6 +20,12 @@ python3 kit/render.py <dir> encode <out.mp4>
 python3 kit/stills.py <dir> carousel slides.json · python3 kit/stills.py <dir> story <t> "<big>" "<small>"
 ```
 
+## Shot engine (approved style, 2 Nov 2026 — use this for every reel)
+- `shotkit.js` + `shotkit.css`: every key word = a NEW full-screen shot (own background, moving pattern, camera move). `SK.def(id,{bg,pats,cam,html,anim})`, `SK.cut([[t,id,{tr,pre}],…])` with cut times = word onset − 0.02 s (`WORDS[i].a`). Patterns: rays, grid, stars, dots, bokeh, rings. Helpers: `SK.planet`, `SK.kundli` (North-Indian chart), `SK.ICON.*`.
+- reel.html body: `<div id="st"><div id="shots"></div><div id="flash"></div><canvas id="near" width="1080" height="1920"></canvas></div>`; load kit.css, shotkit.css, timing.js, motionkit.js, motion3d.js, shotkit.js, scenes.js. `REEL.render = t => { SK.render(t); MK.render(t); }`.
+- First shot: `[0,'s1',{pre:.5}]` so hook + hero are fully visible at frame 0. Dark shots need `rays`/`dots` or lint's fill check fails. Mark decorative SVG text with `data-lint="deco"`.
+- `cover.py`: house-style cover (blurred frame, AstroCheck pill, kicker, big title, band, hand line, astrocheck.app).
+
 ## Files
 - `kit.css`, `template.html`, `motionkit.js` — zones, captions (3 skins), URL tag→chip, series badge, end card, camera/punch/transitions, scene manager
 - `render.py`, `mix.py`, `vo.py`, `contact_sheet.py`, `stills.py`, `new_reel.py`
